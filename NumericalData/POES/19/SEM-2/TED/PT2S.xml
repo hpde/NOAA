@@ -24,7 +24,7 @@
       <PriorID>spase://ViRBO/NumericalData/POES19/SEM-2/TED/PT2S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NGDC</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
