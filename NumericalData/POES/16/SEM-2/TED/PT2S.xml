@@ -4,8 +4,8 @@
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/POES/16/SEM-2/TED/PT2S</ResourceID>
     <ResourceHeader>
-      <ResourceName>POES 16 SEM-2/TED instrument data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ResourceName>NOAA 16 POES Space Environment Monitor-2 (SEM-2) Total Energy Detector (TED) Data in Binary format, 2s Resolution</ResourceName>
+      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
       <Description>POES 16 SEM-2/TED instrument data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
@@ -28,7 +28,7 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <URL>http://satdat.ngdc.noaa.gov/sem/poes/data/</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/poes/data/raw/swpc/</URL>
       </AccessURL>
       <Format>Binary</Format>
       <Encoding>None</Encoding>
@@ -38,8 +38,8 @@
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2001-01-01T00:00:00.00000</StartDate>
-        <RelativeStopDate>P1D</RelativeStopDate>
+        <StartDate>1998-07-01T00:00:00.00000</StartDate>
+        <StopDate>2014-12-31T00:00:00.00000</StopDate>
         <Note/>
       </TimeSpan>
       <Cadence>PT2S</Cadence>
