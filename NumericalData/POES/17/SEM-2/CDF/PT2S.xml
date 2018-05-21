@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://NOAA/NumericalData/POES18/SEM-2/TED/Reprocessed/PT2S</ResourceID>
+    <ResourceID>spase://NOAA/NumericalData/POES/17/SEM-2/TED/CDF/PT2S</ResourceID>
     <ResourceHeader>
-      <ResourceName>POES 18 SEM-2/TED instrument reprocessed and format converted Data</ResourceName>
-      <ReleaseDate>2018-03-30T14:12:05Z</ReleaseDate>
+      <ResourceName>POES 17 SEM-2/TED instrument reprocessed and format converted Data</ResourceName>
+      <ReleaseDate>2018-05-21T00:00:00Z</ReleaseDate>
       <Description>ViRBO has processed the raw binary files for NOAA-15 onward. The data include the 2-second-resolution parameters in the raw binary files along with the corrected parameters.  See http://virbo.org/POES for processing code and information.</Description>
       <Acknowledgement>For instrument, see https://www.ngdc.noaa.gov/stp/satellite/poes/index.html. Code used to extract data was written by Dave Evans and Sue Greer (Fortran) and Janet Green (Matlab)</Acknowledgement>
       <Contact>
@@ -15,9 +15,10 @@
       <InformationURL>
         <Name>ViRBO web page for this dataset</Name>
         <URL>http://virbo.org/POES</URL>
-        <Description>Top-level web page for data set</Description>
+        <Description>Top-level directory for this data set</Description>
       </InformationURL>
-      <PriorID>spase://ViRBO/NumericalData/POES18/SEM-2/TED/Reprocessed/PT1S</PriorID>
+      <PriorID>spase://ViRBO/NumericalData/POES17/SEM-2/TED/Reprocessed/PT1S</PriorID>
+      <PriorID>spase://NOAA/NumericalData/POES17/SEM-2/TED/Reprocessed/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>
@@ -29,13 +30,13 @@
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/NOAA/18/SEM-2</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/NOAA/17/SEM-2</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2005-06-07T00:00:00.000Z</StartDate>
-        <StopDate>2015-05-12T00:00:00.000Z</StopDate>
+        <StartDate>2002-07-12T00:00:00.000Z</StartDate>
+        <StopDate>2013-10-16T00:00:00.000Z</StopDate>
       </TimeSpan>
       <Cadence>PT2S</Cadence>
     </TemporalDescription>

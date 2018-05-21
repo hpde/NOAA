@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/POES/18/SEM-2/CDF/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 18 POES Space Environment Monitor-2 (SEM-2) 2-second Particle Precipitation Data</ResourceName>
-      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
+      <ReleaseDate>2018-05-21T00:00:00Z</ReleaseDate>
       <Description>POES-SEM2&gt;POES-Space Environment Monitor 2 POES N19 Data: POES/MetOp: Particle Precipitation Data, these Data have known Contamination Problems, Please consult the Data Provider, Rob Redmon, at rob.redmon@noaa.gov, for Usage Recommendations</Description>
       <Acknowledgement>NGDC, SWPC</Acknowledgement>
       <Contact>
@@ -35,6 +35,7 @@
         <Description>For further Details on MEPED Contamination Issues, See the</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/NOAA/18/SEM-2/PT2S</PriorID>
+	  <PriorID>spase://NOAA/NumericalData/POES18/SEM-2/TED/Reprocessed/PT2S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
