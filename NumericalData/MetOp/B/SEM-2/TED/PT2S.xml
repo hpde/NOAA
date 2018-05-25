@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/MetOp/B/SEM-2/TED/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>Meteorological Operational B (MetOp B) Space Environment Monitor 2 (SEM-2) Data in Binary format, 2s Resolution</ResourceName>
-      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>METOP02 SEM-2/TED instrument data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
@@ -18,7 +18,7 @@
       </InformationURL>
       <InformationURL>
         <Name>README for dataset</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/poes/data/readme.txt</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/poes/data/readme.txt</URL>
         <Description>README for dataset</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/METOP02/SEM-2/TED/PT2S</PriorID>
