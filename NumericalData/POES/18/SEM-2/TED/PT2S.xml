@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/POES/18/SEM-2/TED/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 18 POES Space Environment Monitor-2 (SEM-2) Total Energy Detector (TED) Data in Binary format, 2s Resolution</ResourceName>
-      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>POES 18 SEM-2/TED instrument data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
@@ -18,7 +18,7 @@
       </InformationURL>
       <InformationURL>
         <Name>README for dataset</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/poes/data/readme.txt</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/poes/data/readme.txt</URL>
         <Description>README for dataset</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/POES18/SEM-2/TED/PT2S</PriorID>
