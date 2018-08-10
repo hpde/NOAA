@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/MetOp/B/SEM-2/CDF/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>Meteorological Operational B (MetOp B) Space Environment Monitor 2 (SEM-2) Data, CDF Format, 2 s Resolution</ResourceName>
-      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Polar Orbiting Environmental Satellites, POES, Meteorological Operational B, MetOp B, Particle Precipitation Data, these Data have known Contamination Problems, Please consult the Data Provider, Rob Redmon, at rob.redmon@noaa.gov, for Usage Recommendations</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Janet.C.Green</PersonID>
@@ -51,7 +51,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=METOP1_POES-SEM2_FLUXES-2SEC&amp;index=sp_phys</URL>
         <ProductKey>METOP1_POES-SEM2_FLUXES-2SEC</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

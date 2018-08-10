@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>GOES 11 Energetic Particle Sensor Data at 5 min Time Resolution</ResourceName>
       <AlternateName>GOES 11 EPS data</AlternateName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>The energetic particle sensor data consists of electron, proton, and alpha particle data. The electrons consists of 3 energy flux channels with energies greater than 0.6 MeV. The protons consist of 7 energy channels from 0.6 to 500 MeV and the alpha particles consist of 6 energy channels from 4 to 500 MeV.</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories, Terry G. Onsager</Acknowledgement>
       <Contact>
@@ -58,7 +58,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES11_K0_EP8&amp;index=sp_phys</URL>
         <ProductKey>GOES11_K0_EP8</ProductKey>
         <Description>GOES11_K0_EP8</Description>
       </AccessURL>

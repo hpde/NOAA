@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/DSCOVR/Ephemeris/Attitude/Definitive/PT5S</ResourceID>
     <ResourceHeader>
       <ResourceName>DSCOVR 3-Axis Stabilized Attitude (Ephemeris) Definitive Data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>DSCOVR 3-Axis Stabilized Definitive Attitude Data File, 5 s Time Resolution. Convention: Intrinsic Rotations applied in Yaw, Pitch, Roll Order. Extended Kalman Filter applied to Ground-Based Solution during Normal Operations. Onboard Computer, OBC, Solution used during Calibration Maneuvers.</Description>
       <Acknowledgement>A. Szabo</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DSCOVR_AT_DEF&amp;index=sp_phys</URL>
         <ProductKey>DSCOVR_AT_DEF</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

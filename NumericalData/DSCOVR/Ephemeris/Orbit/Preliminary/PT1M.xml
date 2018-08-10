@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/DSCOVR/Ephemeris/Orbit/Preliminary/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>DSCOVR Orbital Ephemeris Predicted Spacecraft Position and Velocity</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>DSCOVR Predicted Orbit Data File</Description>
       <Acknowledgement>A. Szabo</Acknowledgement>
       <Contact>
@@ -44,7 +44,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DSCOVR_ORBIT_PRE&amp;index=sp_phys</URL>
         <ProductKey>DSCOVR_ORBIT_PRE</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

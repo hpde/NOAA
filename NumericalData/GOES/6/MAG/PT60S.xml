@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/GOES/6/MAG/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 6 MAG 1-Min Key Parameters</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>GOES 6 Magnetometer 1-Min Key Parameters, in Local S/C Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.D.Zwickl</PersonID>
@@ -29,7 +29,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=G6_K0_MAG&amp;index=sp_phys</URL>
         <ProductKey>G6_K0_MAG</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

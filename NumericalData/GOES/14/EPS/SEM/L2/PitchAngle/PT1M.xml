@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/GOES/14/EPS/SEM/L2/PitchAngle/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 14 Energetic Particle Sensor (EPS), MagED and MagPD Telescope Magnetic Field Dependent Pitch Angle Directions, 1 min Data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>These Data has been recast from original NOAA netCDF Files by SPDF. Data Caveats and Warnings: The MagED Data may not be accurate at Times due to Instrument Limitations such as Dead Time and Proton Contamination. Every Effort is made to reduce these Effects but Uncertainties are inevitable. Additionally, the Detectors may suffer from intermittent Noise Problems. Please contact Juan V. Rodriguez, sem.goes@noaa.gov, with Questions or Concerns.</Description>
       <Acknowledgement>J.V. Rodriguez, NOAA NGDC and SWPC</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES14_EPS-PITCH-ANGLES_1MIN&amp;index=sp_phys</URL>
         <ProductKey>GOES14_EPS-PITCH-ANGLES_1MIN</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

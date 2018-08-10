@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/POES/14/SEM/MEPED/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 14 POES Space Environment Monitor (SEM) Medium Energy Proton and Electron Detector (MEPED) 1 minute re-processed particle count rates, fluxes, and model fields, </ResourceName>
-      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description> This is the re-processed version of the MEPED (Medium Energy Proton Electron Detector) data archive from the TIROS/NOAA spacecraft containing particle count rates, fluxes, and model fields. The raw data from the NOAA archive have been processed to 1-minute resolution; magnetic field parameters (GSM Bx, By, Bz, B/Bmin, and L) are derived in 4 magnetic field models: IGRF, Tsyganenko 89 (T89), Tsyganenko 96 (T96), Tsyganenko 01 (T01); T89, T96, and T01 magnetic field models are driven with solar wind parameters and geomagnetic indices obtained from OMNI-2 data detector counts, omni and perpendicular electron and proton flux are archived. 
              </Description>
       <Acknowledgement>Plesae acknowledge the SPDF team</Acknowledgement>
@@ -47,7 +47,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=NOAA14_MEPED1MIN_SEM&amp;index=sp_phys</URL>
         <ProductKey>NOAA14_MEPED1MIN_SEM</ProductKey>
         <Description>NOAA14_MEPED1MIN_SEM with subset, plot and list via CDAWeb</Description>
       </AccessURL>
