@@ -5,29 +5,29 @@
     <ResourceID>spase://NOAA/NumericalData/DSCOVR/PlasMag/FaradayCup/L1/PT0.04S</ResourceID>
     <ResourceHeader>
       <ResourceName>DSCOVR Faraday Cup (FC) Level 1 full resolution data</ResourceName>
-      <ReleaseDate>2018-09-19T13:55:50Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Solar wind observations collected from Faraday Cup on DSCOVR satellite - cycle peak identification</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/William.F.Rowland</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Douglas.Biesecker</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Association>
         <AssociationID>spase://SMWG/Observatory/DSCOVR</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://NOAA/NumericalData/DSCOVR/FC/fc1</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/NCEI</RepositoryID>
       <AccessURL>
-        <URL>http://www.ngdc.noaa.gov/dscovr/portal/index.html#/download</URL>
-      </AccessURL>
+        <URL>https://www.ngdc.noaa.gov/dscovr/portal/index.html</URL>
+</AccessURL>
       <Format>NetCDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/DSCOVR/PlasMag/FaradayCup</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -35,10 +35,10 @@
       <TimeSpan>
         <StartDate>2016-03-27T00:00:00Z</StartDate>
         <RelativeStopDate>-P1D</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT0.04S</Cadence>
       <Exposure>PT0.04S</Exposure>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Caveats/>
     <Keyword>L1</Keyword>
@@ -54,7 +54,7 @@
       <UnitsConversion>1.0E-6&amp;gt;m^-3</UnitsConversion>
       <RenderingHints>
         <AxisLabel>alpha_density (cm^-3)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.2178</ValidMin>
       <ValidMax>221.19</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -62,8 +62,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>possible_second_proton_peak_flag</Name>
       <ParameterKey>possible_second_proton_peak_flag</ParameterKey>
@@ -73,8 +73,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_peak_height_flag</Name>
       <ParameterKey>alpha_peak_height_flag</ParameterKey>
@@ -84,8 +84,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_velocity_x_gse_out_of_range_flag</Name>
       <ParameterKey>bad_proton_vx_gse_flag</ParameterKey>
@@ -95,8 +95,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_velocity_y_gse_out_of_range_flag</Name>
       <ParameterKey>bad_proton_vy_gse_flag</ParameterKey>
@@ -106,8 +106,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_out_of_range_unknown_flag</Name>
       <ParameterKey>proton_out_of_range_unknown_flag</ParameterKey>
@@ -117,8 +117,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_peak_unbounded_flag</Name>
       <ParameterKey>proton_peak_unbounded_flag</ParameterKey>
@@ -128,8 +128,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_temperature</Name>
       <ParameterKey>alpha_temperature</ParameterKey>
@@ -138,7 +138,7 @@
       <Units>degrees K</Units>
       <RenderingHints>
         <AxisLabel>alpha_temperature (degrees K)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>35529.0</ValidMin>
       <ValidMax>79497000.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -146,8 +146,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton_peak_unresolved_flag</Name>
       <ParameterKey>proton_peak_unresolved_flag</ParameterKey>
@@ -157,8 +157,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_alpha_confusion_flag</Name>
       <ParameterKey>proton_alpha_confusion_flag</ParameterKey>
@@ -168,8 +168,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_out_of_range_high_flag</Name>
       <ParameterKey>proton_out_of_range_high_flag</ParameterKey>
@@ -179,8 +179,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_out_of_range_low_flag</Name>
       <ParameterKey>proton_out_of_range_low_flag</ParameterKey>
@@ -190,8 +190,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>packet_time_in_future_flag</Name>
       <ParameterKey>future_packet_time_flag</ParameterKey>
@@ -201,8 +201,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>packet_time_older_than_threshold_flag</Name>
       <ParameterKey>old_packet_time_flag</ParameterKey>
@@ -212,8 +212,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>fill_flag</Name>
       <ParameterKey>fill_flag</ParameterKey>
@@ -223,8 +223,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>normal_full_sweep_mode_flag</Name>
       <ParameterKey>normal_mode_flag</ParameterKey>
@@ -234,8 +234,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_velocity_x_gsm_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_vx_gsm_flag</ParameterKey>
@@ -245,8 +245,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_velocity_y_gsm_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_vy_gsm_flag</ParameterKey>
@@ -256,8 +256,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_velocity_z_gsm_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_vz_gsm_flag</ParameterKey>
@@ -267,8 +267,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>AOCS_non_science_mode_maneuver_or_safehold_flag</Name>
       <ParameterKey>maneuver_flag</ParameterKey>
@@ -278,8 +278,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_density_out_of_range_flag</Name>
       <ParameterKey>bad_proton_density_flag</ParameterKey>
@@ -289,8 +289,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_temperature_out_of_range_flag</Name>
       <ParameterKey>bad_proton_temperature_flag</ParameterKey>
@@ -300,8 +300,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>reduced_alpha_particle_data_quality_flag</Name>
       <ParameterKey>reduced_alpha_quality_flag</ParameterKey>
@@ -311,8 +311,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>calibration_mode_flag</Name>
       <ParameterKey>calibration_mode_flag</ParameterKey>
@@ -322,8 +322,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_speed_out_of_range_flag</Name>
       <ParameterKey>bad_proton_speed_flag</ParameterKey>
@@ -333,8 +333,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton velocity Y component GSM</Name>
       <ParameterKey>proton_vy_gsm</ParameterKey>
@@ -345,10 +345,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>proton_vy_gsm (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -356,8 +356,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton velocity X component GSM</Name>
       <ParameterKey>proton_vx_gsm</ParameterKey>
@@ -368,10 +368,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>proton_vx_gsm (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -379,8 +379,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton_speed</Name>
       <ParameterKey>proton_speed</ParameterKey>
@@ -390,7 +390,7 @@
       <UnitsConversion>1.0E3&amp;gt;m/s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>proton_speed (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -398,8 +398,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton velocity Z component GSM</Name>
       <ParameterKey>proton_vz_gsm</ParameterKey>
@@ -410,10 +410,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>proton_vz_gsm (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -421,8 +421,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton velocity X component GSE</Name>
       <ParameterKey>proton_vx_gse</ParameterKey>
@@ -433,10 +433,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>proton_vx_gse (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -444,8 +444,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>time</Name>
       <ParameterKey>time</ParameterKey>
@@ -455,11 +455,11 @@
       <UnitsConversion>1.0E-3&amp;gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>time (ms)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton velocity Z component GSE</Name>
       <ParameterKey>proton_vz_gse</ParameterKey>
@@ -470,10 +470,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>proton_vz_gse (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -481,8 +481,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton velocity Y component GSE</Name>
       <ParameterKey>proton_vy_gse</ParameterKey>
@@ -493,10 +493,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>proton_vy_gse (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -504,8 +504,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton_temperature</Name>
       <ParameterKey>proton_temperature</ParameterKey>
@@ -514,7 +514,7 @@
       <Units>degrees K</Units>
       <RenderingHints>
         <AxisLabel>proton_temperature (degrees K)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>35529.0</ValidMin>
       <ValidMax>79497000.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -522,8 +522,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>proton_density</Name>
       <ParameterKey>proton_density</ParameterKey>
@@ -533,7 +533,7 @@
       <UnitsConversion>1.0E-6&amp;gt;m^-3</UnitsConversion>
       <RenderingHints>
         <AxisLabel>proton_density (cm^-3)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.2178</ValidMin>
       <ValidMax>221.19</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -541,8 +541,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>alpha velocity Y component GSE</Name>
       <ParameterKey>alpha_vy_gse</ParameterKey>
@@ -553,10 +553,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>alpha_vy_gse (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -564,8 +564,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>alpha velocity X component GSE</Name>
       <ParameterKey>alpha_vx_gse</ParameterKey>
@@ -576,10 +576,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>alpha_vx_gse (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -587,8 +587,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>alpha velocity X component GSM</Name>
       <ParameterKey>alpha_vx_gsm</ParameterKey>
@@ -599,10 +599,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>alpha_vx_gsm (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -610,8 +610,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>alpha velocity Z component GSE</Name>
       <ParameterKey>alpha_vz_gse</ParameterKey>
@@ -622,10 +622,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>alpha_vz_gse (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -633,8 +633,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>alpha velocity Z component GSM</Name>
       <ParameterKey>alpha_vz_gsm</ParameterKey>
@@ -645,10 +645,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>alpha_vz_gsm (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -656,8 +656,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>alpha velocity Y component GSM</Name>
       <ParameterKey>alpha_vy_gsm</ParameterKey>
@@ -668,10 +668,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>alpha_vy_gsm (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -679,8 +679,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>loss_of_proton_peak_flag</Name>
       <ParameterKey>proton_peak_loss_flag</ParameterKey>
@@ -690,8 +690,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_speed</Name>
       <ParameterKey>alpha_speed</ParameterKey>
@@ -701,7 +701,7 @@
       <UnitsConversion>1.0E3&amp;gt;m/s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>alpha_speed (km/s)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>169.0</ValidMin>
       <ValidMax>1516.0</ValidMax>
       <FillValue>-99999.0</FillValue>
@@ -709,8 +709,8 @@
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>backfilled_data_flag</Name>
       <ParameterKey>backfill_flag</ParameterKey>
@@ -720,8 +720,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_position_high_flag</Name>
       <ParameterKey>alpha_position_high_flag</ParameterKey>
@@ -731,8 +731,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_position_low_flag</Name>
       <ParameterKey>alpha_position_low_flag</ParameterKey>
@@ -742,8 +742,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_peak_unbounded_flag</Name>
       <ParameterKey>alpha_peak_unbounded_flag</ParameterKey>
@@ -753,8 +753,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_out_of_range_unknown_flag</Name>
       <ParameterKey>alpha_out_of_range_unknown_flag</ParameterKey>
@@ -764,8 +764,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_out_of_range_high_flag</Name>
       <ParameterKey>alpha_out_of_range_high_flag</ParameterKey>
@@ -775,8 +775,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_proton_confusion_flag</Name>
       <ParameterKey>alpha_proton_confusion_flag</ParameterKey>
@@ -786,8 +786,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_peak_unresolved_flag</Name>
       <ParameterKey>alpha_peak_unresolved_flag</ParameterKey>
@@ -797,8 +797,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_density_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_density_flag</ParameterKey>
@@ -808,8 +808,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_speed_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_speed_flag</ParameterKey>
@@ -819,8 +819,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_velocity_x_gse_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_vx_gse_flag</ParameterKey>
@@ -830,8 +830,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_temperature_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_temperature_flag</ParameterKey>
@@ -841,8 +841,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_velocity_x_gsm_out_of_range_flag</Name>
       <ParameterKey>bad_proton_vx_gsm_flag</ParameterKey>
@@ -852,8 +852,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_velocity_z_gse_out_of_range_flag</Name>
       <ParameterKey>bad_proton_vz_gse_flag</ParameterKey>
@@ -863,8 +863,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_velocity_z_gsm_out_of_range_flag</Name>
       <ParameterKey>bad_vz_gsm_flag</ParameterKey>
@@ -874,8 +874,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>proton_velocity_y_gsm_out_of_range_flag</Name>
       <ParameterKey>bad_proton_proton_vy_gsm_flag</ParameterKey>
@@ -885,8 +885,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_velocity_z_gse_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_vz_gse_flag</ParameterKey>
@@ -896,8 +896,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>alpha_velocity_y_gse_out_of_range_flag</Name>
       <ParameterKey>bad_alpha_vy_gse_flag</ParameterKey>
@@ -907,8 +907,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>loss_of_alpha_particle_peak_flag</Name>
       <ParameterKey>alpha_peak_loss_flag</ParameterKey>
@@ -918,8 +918,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>reduced_proton_data_quality_flag</Name>
       <ParameterKey>reduced_proton_quality_flag</ParameterKey>
@@ -929,7 +929,7 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

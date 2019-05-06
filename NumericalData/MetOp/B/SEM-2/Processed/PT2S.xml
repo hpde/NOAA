@@ -6,29 +6,29 @@
     <ResourceHeader>
       <ResourceName>Meteorological Operational B (MetOp B) Space Environment Monitor 2 (SEM-2) Processed, Uncorrectecd Data at 2 s Resolution</ResourceName>
       <AlternateName>MetOp-B SEM data</AlternateName>
-      <ReleaseDate>2018-05-15T18:38:16Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The MetOp-B SEM data consists of  location information, magnetic field estimates,  energy fluxes, and total energies from the Medium Energy Proton/Electron Detector (MEPED) and the Total Energy Detector (TED).</Description>
       <Acknowledgement>European Space Agency; EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>European Organisation for the Exploitation of Meteorological Satellites SEM page</Name>
         <URL>https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/MetopDesign/SEM/index.html</URL>
         <Description>Information about the Space Environment Monitor-2 (SEM-2) experiment on the MetOp-B mission.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>European Space Agency SEM information.</Name>
-        <URL>http://www.esa.int/Our_Activities/Observing_the_Earth/The_Living_Planet_Programme/Meteorological_missions/MetOp/About_SEM-2</URL>
+        <URL>http://www.esa.int/Our_Activities/Observing_the_Earth/Meteorological_missions/MetOp/About_SEM-2</URL>
         <Description>Information about the Space Environment Monitor-2 (SEM-2) experiment on the MetOp-B mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VMO/NumericalData/MetOp/B/SEM/full/PT2S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
       <Availability>Online</Availability>
@@ -37,11 +37,11 @@
         <Name>Direct access to the NOAA MetOp SEM data</Name>
         <URL>https://satdat.ngdc.noaa.gov/sem/poes/data/processed/ngdc/uncorrected/full/</URL>
         <Description>Direct link to theNOAA MetOp SEM processed full resolution netcdf data. The data are sorted by year and spacecraft. The data files are daily files.</Description>
-      </AccessURL>
+</AccessURL>
       <Format>NetCDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>NOAA; EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Uncalibrated</ProcessingLevel>
     <ProviderResourceName>MetOp-B SEM-2</ProviderResourceName>
     <ProviderProcessingLevel>Level-0</ProviderProcessingLevel>
@@ -52,9 +52,9 @@
         <StartDate>2013-01-01T00:00:00</StartDate>
         <RelativeStopDate>-P1D</RelativeStopDate>
         <Note>Time format in data files is year month day hour minute seconds.</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT2S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <Keyword>2 s</Keyword>
     <Keyword>polar orbiting</Keyword>
     <Keyword>NOAA</Keyword>
@@ -77,7 +77,7 @@
           <Index>1</Index>
           <ParameterKey>time</ParameterKey>
           <Units>msec</Units>
-        </Element>
+</Element>
         <Element>
           <Name>4 digit year</Name>
           <Index>2</Index>
@@ -85,7 +85,7 @@
           <Units>year</Units>
           <ValidMin>1995</ValidMin>
           <ValidMax>2050</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Day Of Year</Name>
           <Index>3</Index>
@@ -93,7 +93,7 @@
           <Units>day</Units>
           <ValidMin>0</ValidMin>
           <ValidMax>366</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Milliseconds of the day</Name>
           <Index>4</Index>
@@ -101,20 +101,20 @@
           <Units>millisec</Units>
           <ValidMin>0</ValidMin>
           <ValidMax>8.64e+007</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite identification number</Name>
       <ParameterKey>satID</ParameterKey>
       <Description>2 digit number identifying the satellite the data is from.</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Hemisphere Location</Name>
       <ParameterKey>sat_direction</ParameterKey>
@@ -123,8 +123,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Altitude of the Spacecraft</Name>
       <ParameterKey>alt</ParameterKey>
@@ -134,8 +134,8 @@
       <ValidMax>1000</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geographic Latitude of sub-satellite point.</Name>
       <ParameterKey>lat</ParameterKey>
@@ -145,8 +145,8 @@
       <ValidMax>90</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geographic Longitude of sub-satellite point.</Name>
       <ParameterKey>lon</ParameterKey>
@@ -156,8 +156,8 @@
       <ValidMax>360</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~39 keV 0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p1</ParameterKey>
@@ -171,9 +171,9 @@
           <Low>30</Low>
           <High>80</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~115keV  0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p2</ParameterKey>
@@ -187,9 +187,9 @@
           <Low>80</Low>
           <High>240</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~332 keV 0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p3</ParameterKey>
@@ -203,9 +203,9 @@
           <Low>240</Low>
           <High>800</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~1105 keV 0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p4</ParameterKey>
@@ -219,9 +219,9 @@
           <Low>800</Low>
           <High>2500</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~2723 keV 0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p5</ParameterKey>
@@ -235,9 +235,9 @@
           <Low>2500</Low>
           <High>6900</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~6174 keV 0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p6</ParameterKey>
@@ -246,8 +246,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~39 keV  0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p1_err</ParameterKey>
@@ -261,9 +261,9 @@
           <Low>30</Low>
           <High>80</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~115 keV  0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p2_err</ParameterKey>
@@ -277,9 +277,9 @@
           <Low>80</Low>
           <High>240</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~332 keV 0 deg telescope</Name>
       <ParameterKey>mep_pro_tel0_flux_p3_err</ParameterKey>
@@ -293,9 +293,9 @@
           <Low>240</Low>
           <High>800</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~1105 keV 0 deg</Name>
       <ParameterKey>mep_pro_tel0_flux_p4_err</ParameterKey>
@@ -309,9 +309,9 @@
           <Low>800</Low>
           <High>2500</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~2723 keV 0 deg</Name>
       <ParameterKey>mep_pro_tel0_flux_p5_err</ParameterKey>
@@ -325,9 +325,9 @@
           <Low>2500</Low>
           <High>6900</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~6174 keV 0 deg</Name>
       <ParameterKey>mep_pro_tel0_flux_p6_err</ParameterKey>
@@ -336,8 +336,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~39 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p1</ParameterKey>
@@ -351,9 +351,9 @@
           <Low>30</Low>
           <High>80</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~115 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p2</ParameterKey>
@@ -367,9 +367,9 @@
           <Low>80</Low>
           <High>240</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~332 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p3</ParameterKey>
@@ -383,9 +383,9 @@
           <Low>240</Low>
           <High>800</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~1105 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p4</ParameterKey>
@@ -399,9 +399,9 @@
           <Low>800</Low>
           <High>2500</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~2723 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p5</ParameterKey>
@@ -415,9 +415,9 @@
           <Low>2500</Low>
           <High>6900</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux ~6174 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p6</ParameterKey>
@@ -427,8 +427,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~39 keV  90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p1_err</ParameterKey>
@@ -442,9 +442,9 @@
           <Low>30</Low>
           <High>80</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~115 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p2_err</ParameterKey>
@@ -458,9 +458,9 @@
           <Low>80</Low>
           <High>240</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~332 keV 90 deg telescope</Name>
       <ParameterKey>mep_pro_tel90_flux_p3_err</ParameterKey>
@@ -474,9 +474,9 @@
           <Low>240</Low>
           <High>800</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~1105 keV 90 deg</Name>
       <ParameterKey>mep_pro_tel90_flux_p4_err</ParameterKey>
@@ -490,9 +490,9 @@
           <Low>800</Low>
           <High>2500</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~2723 keV 90 deg</Name>
       <ParameterKey>mep_pro_tel90_flux_p5_err</ParameterKey>
@@ -506,9 +506,9 @@
           <Low>2500</Low>
           <High>6900</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux percent error ~6174 keV 90 deg</Name>
       <ParameterKey>mep_pro_tel90_flux_p6_err</ParameterKey>
@@ -517,8 +517,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;40 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e1</ParameterKey>
@@ -527,8 +527,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;130 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e2</ParameterKey>
@@ -537,8 +537,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;287 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e3</ParameterKey>
@@ -547,8 +547,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;612 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e4</ParameterKey>
@@ -557,8 +557,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;40 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e1_err</ParameterKey>
@@ -567,8 +567,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;130 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e2_err</ParameterKey>
@@ -577,8 +577,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;287 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e3</ParameterKey>
@@ -587,8 +587,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;612 keV 0 deg telescope</Name>
       <ParameterKey>mep_ele_tel0_flux_e4_err</ParameterKey>
@@ -597,8 +597,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;40 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e1</ParameterKey>
@@ -607,8 +607,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;130 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e2</ParameterKey>
@@ -617,8 +617,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;287 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e3</ParameterKey>
@@ -627,8 +627,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux &gt;6174 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e4</ParameterKey>
@@ -637,8 +637,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;40 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e1_err</ParameterKey>
@@ -647,8 +647,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;130 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e2_err</ParameterKey>
@@ -657,8 +657,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;287 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e3</ParameterKey>
@@ -667,8 +667,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED electron flux percent error &gt;6174 keV 90 deg telescope</Name>
       <ParameterKey>mep_ele_tel90_flux_e4_err</ParameterKey>
@@ -677,8 +677,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux &gt;25 MeV omnidirection telescope</Name>
       <ParameterKey>mep_omni_flux_p1</ParameterKey>
@@ -687,8 +687,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux &gt;50 MeV omnidirection telescope</Name>
       <ParameterKey>mep_omni_flux_p2</ParameterKey>
@@ -697,8 +697,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED proton flux &gt;100 MeV omnidirection telescope</Name>
       <ParameterKey>mep_omni_flux_p3</ParameterKey>
@@ -707,8 +707,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED omni fit flag</Name>
       <ParameterKey>mep_omni_flux_flag_fit</ParameterKey>
@@ -717,8 +717,8 @@
       <ValidMax>2</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>MEPED omni flag for fit iteration limit</Name>
       <ParameterKey>mep_omni_flux_flag_iter_lim</ParameterKey>
@@ -727,8 +727,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gamma derived for p1 energy band</Name>
       <ParameterKey>mep_omni_gamma_p1</ParameterKey>
@@ -736,8 +736,8 @@
       <Support>
         <Qualifier>Fit</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gamma derived for p2 energy band</Name>
       <ParameterKey>mep_omni_gamma_p2</ParameterKey>
@@ -745,8 +745,8 @@
       <Support>
         <Qualifier>Fit</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gamma derived for p3 energy band</Name>
       <ParameterKey>mep_omni_gamma_p3</ParameterKey>
@@ -754,8 +754,8 @@
       <Support>
         <Qualifier>Fit</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED electron 189 eV 0 deg telescope</Name>
       <ParameterKey>ted_ele_tel0_flux_4</ParameterKey>
@@ -766,8 +766,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 844 eV 0 deg telescope</Name>
       <ParameterKey>ted_ele_tel0_flux_8</ParameterKey>
@@ -778,8 +778,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 2595 eV 0 deg telescope</Name>
       <ParameterKey>ted_ele_tel0_flux_11</ParameterKey>
@@ -790,8 +790,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 7980 eV 0 deg telescope</Name>
       <ParameterKey>ted_ele_tel0_flux_14</ParameterKey>
@@ -802,8 +802,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 189 eV 30 deg telescope</Name>
       <ParameterKey>ted_ele_tel30_flux_4</ParameterKey>
@@ -814,8 +814,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 844 eV 30 deg telescope</Name>
       <ParameterKey>ted_ele_tel30_flux_8</ParameterKey>
@@ -826,8 +826,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 2595 eV 30 deg telescope</Name>
       <ParameterKey>ted_ele_tel30_flux_11</ParameterKey>
@@ -838,8 +838,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron 7980 eV 30 deg telescope</Name>
       <ParameterKey>ted_ele_tel30_flux_14</ParameterKey>
@@ -850,11 +850,11 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 189 eV 0 deg telescope</Name>
-      <ParameterKey> ted_pro_tel0_flux_4</ParameterKey>
+      <ParameterKey>ted_pro_tel0_flux_4</ParameterKey>
       <Description>TED proton energy band 4 at the 0 deg telescope.</Description>
       <Units>#/cm2-s-str-eV</Units>
       <ValidMin>0</ValidMin>
@@ -862,8 +862,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 844 eV  0 deg telescope</Name>
       <ParameterKey>ted_pro_tel0_flux_8</ParameterKey>
@@ -874,8 +874,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 2595 eV 0 deg telescope</Name>
       <ParameterKey>ted_pro_tel0_flux_11</ParameterKey>
@@ -886,8 +886,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 7980 0 deg telescope</Name>
       <ParameterKey>ted_pro_tel0_flux_14</ParameterKey>
@@ -898,11 +898,11 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 189 eV 30 deg telescope</Name>
-      <ParameterKey> ted_pro_tel30_flux_4</ParameterKey>
+      <ParameterKey>ted_pro_tel30_flux_4</ParameterKey>
       <Description>TED proton energy band 4 at the 30 deg telescope.</Description>
       <Units>#/cm2-s-str-eV</Units>
       <ValidMin>0</ValidMin>
@@ -910,8 +910,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 844 eV  30 deg telescope</Name>
       <ParameterKey>ted_pro_tel30_flux_8</ParameterKey>
@@ -922,8 +922,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 2595 eV 30 deg telescope</Name>
       <ParameterKey>ted_pro_tel30_flux_11</ParameterKey>
@@ -934,8 +934,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton 7980 30 deg telescope</Name>
       <ParameterKey>ted_pro_tel30_flux_14</ParameterKey>
@@ -946,8 +946,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50eV-1 keV) 0 deg telescope energy flux</Name>
       <ParameterKey>ted_ele_tel0_low_eflux</ParameterKey>
@@ -958,8 +958,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50eV-1 keV) 30 deg telescope energy flux</Name>
       <ParameterKey>ted_ele_tel30_low_eflux</ParameterKey>
@@ -970,8 +970,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (1-20 keV) 0 deg telescope energy flux</Name>
       <ParameterKey>ted_ele_tel0_hi_eflux</ParameterKey>
@@ -982,8 +982,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (1-20 keV) 30 deg telescope energy flux</Name>
       <ParameterKey>ted_ele_tel30_hi_eflux</ParameterKey>
@@ -994,8 +994,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (50eV-1 keV) 0 deg telescope energy flux</Name>
       <ParameterKey>ted_pro_tel0_low_eflux</ParameterKey>
@@ -1006,8 +1006,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TEDproton (50eV-1 keV) 30 deg telescope energy flux</Name>
       <ParameterKey>ted_pro_tel30_low_eflux</ParameterKey>
@@ -1018,8 +1018,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (1-20 keV)  0 deg telescope energy flux</Name>
       <ParameterKey>ted_pro_tel0_hi_eflux</ParameterKey>
@@ -1030,8 +1030,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (1-20 keV) 30 deg telescope energy flux</Name>
       <ParameterKey>ted_pro_tel30_hi_eflux</ParameterKey>
@@ -1042,8 +1042,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50eV-1 keV) 0 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_ele_tel0_low_eflux_error</ParameterKey>
@@ -1052,8 +1052,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50eV-1 keV) 30 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_ele_tel30_low_eflux_error</ParameterKey>
@@ -1062,8 +1062,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (1-20 keV) 0 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_ele_tel0_hi_eflux_error</ParameterKey>
@@ -1072,8 +1072,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (1-20 keV)  30 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_ele_tel30_hi_eflux_error</ParameterKey>
@@ -1082,8 +1082,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (50eV-1 keV) 0 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_pro_tel0_low_eflux_error</ParameterKey>
@@ -1092,8 +1092,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TEDproton (50eV-1 keV) 30 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_pro_tel30_low_eflux_error</ParameterKey>
@@ -1102,8 +1102,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (1-20 keV)  0 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_pro_tel0_hi_eflux_error</ParameterKey>
@@ -1112,8 +1112,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (1-20 keV)  30 deg telescope energy flux percent error</Name>
       <ParameterKey>ted_pro_tel30_hi_eflux_error</ParameterKey>
@@ -1122,8 +1122,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50eV-1 keV) energy flux at 120 km</Name>
       <ParameterKey>ted_ele_eflux_atmo_low</ParameterKey>
@@ -1134,8 +1134,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (1-20 keV) energy flux at 120 km</Name>
       <ParameterKey>ted_ele_eflux_atmo_hi</ParameterKey>
@@ -1146,8 +1146,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50 eV-20 keV) energy flux at 120 km</Name>
       <ParameterKey>ted_ele_eflux_atmo_total</ParameterKey>
@@ -1158,8 +1158,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50eV-1 keV) energy flux percent error at 120 km</Name>
       <ParameterKey>ted_ele_eflux_atmo_low_err</ParameterKey>
@@ -1170,8 +1170,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (1-20 keV) energy flux percent error at 120 km</Name>
       <ParameterKey>ted_ele_eflux_atmo_hi</ParameterKey>
@@ -1182,8 +1182,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron (50 eV-20 keV) energy flux percent error at 120 km</Name>
       <ParameterKey>ted_ele_eflux_atmo_total_err</ParameterKey>
@@ -1194,8 +1194,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (50eV-1 keV) energy flux at 120 km</Name>
       <ParameterKey>ted_pro_eflux_atmo_low</ParameterKey>
@@ -1206,8 +1206,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (1-20 keV) energy flux at 120 km</Name>
       <ParameterKey>ted_pro_eflux_atmo_hi</ParameterKey>
@@ -1218,8 +1218,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (50 eV-20 keV) energy flux at 120 km</Name>
       <ParameterKey>ted_pro_eflux_atmo_total</ParameterKey>
@@ -1230,8 +1230,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (50eV-1 keV) energy flux percent error at 120 km</Name>
       <ParameterKey>ted_pro_eflux_atmo_low_err</ParameterKey>
@@ -1242,8 +1242,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (1-20 keV) energy flux percent error at 120 km</Name>
       <ParameterKey>ted_pro_eflux_atmo_hi_err</ParameterKey>
@@ -1254,8 +1254,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton (50 eV-20 keV) energy flux percent error at 120 km</Name>
       <ParameterKey>ted_pro_eflux_atmo_total_err</ParameterKey>
@@ -1266,8 +1266,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED total (50 ev-20 keV) energy flux of protons and electrons at 120 km</Name>
       <ParameterKey>ted_total_eflux_atmo</ParameterKey>
@@ -1279,8 +1279,8 @@
         <ParticleType>Proton</ParticleType>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED total (50 ev-20 keV) energy flux percent error of protons and electrons at 120 km</Name>
       <ParameterKey>ted_total_eflux_atmo_err</ParameterKey>
@@ -1292,8 +1292,8 @@
         <ParticleType>Proton</ParticleType>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron characteristic energy channel 0 deg telescope</Name>
       <ParameterKey>ted_ele_energy_tel0</ParameterKey>
@@ -1303,8 +1303,8 @@
       <ValidMax>15</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED electron characteristic energy channel 30 deg telescope</Name>
       <ParameterKey>ted_ele_energy_tel30</ParameterKey>
@@ -1314,8 +1314,8 @@
       <ValidMax>15</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED proton characteristic energy channel  0 deg telescope</Name>
       <ParameterKey>ted_pro_energy_tel0</ParameterKey>
@@ -1325,8 +1325,8 @@
       <ValidMax>15</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED proton characteristic energy channel 30 deg telescope</Name>
       <ParameterKey>ted_pro_energy_tel30</ParameterKey>
@@ -1336,8 +1336,8 @@
       <ValidMax>15</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED electron maximum flux [#/cm2-s-str-eV] 0 deg telescope</Name>
       <ParameterKey>ted_ele_max_flux_tel0</ParameterKey>
@@ -1348,8 +1348,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron maximum flux [#/cm2-s-str-eV] 30 deg telescope</Name>
       <ParameterKey>ted_ele_max_flux_tel30</ParameterKey>
@@ -1360,8 +1360,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton maximum flux [#/cm2-s-str-eV] 0 deg telescope</Name>
       <ParameterKey>ted_pro_max_flux_tel0</ParameterKey>
@@ -1372,8 +1372,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton maximum flux [#/cm2-s-str-eV] 30 deg telescope</Name>
       <ParameterKey>ted_pro_max_flux_tel30</ParameterKey>
@@ -1384,8 +1384,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background low energy 0 degree telescope</Name>
       <ParameterKey>ted_ele_eflux_bg_tel0_low</ParameterKey>
@@ -1396,8 +1396,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background low energy 30 degree telescope</Name>
       <ParameterKey>ted_ele_eflux_bg_tel30_low</ParameterKey>
@@ -1408,8 +1408,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background high energy 0 degree telescope</Name>
       <ParameterKey>ted_ele_eflux_bg_tel0_hi</ParameterKey>
@@ -1420,8 +1420,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background high energy 30 degree telescope</Name>
       <ParameterKey>ted_ele_eflux_bg_tel30_hi</ParameterKey>
@@ -1432,8 +1432,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background low energy 0 degree telescope</Name>
       <ParameterKey>ted_pro_eflux_bg_tel0_low</ParameterKey>
@@ -1444,8 +1444,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background low energy 30 degree telescope</Name>
       <ParameterKey>ted_pro_eflux_bg_tel30_low</ParameterKey>
@@ -1456,8 +1456,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background high energy 0 degree telescope</Name>
       <ParameterKey>ted_pro_eflux_bg_tel0_hi</ParameterKey>
@@ -1468,8 +1468,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background high energy 30 degree telescope</Name>
       <ParameterKey>ted_pro_eflux_bg_tel30_hi</ParameterKey>
@@ -1480,8 +1480,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background low energy 0 degree telescope counts</Name>
       <ParameterKey>ted_ele_eflux_bg_tel0_low_cps</ParameterKey>
@@ -1492,8 +1492,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background low energy 30 degree telescope counts</Name>
       <ParameterKey>ted_ele_eflux_bg_tel30_low_cps</ParameterKey>
@@ -1504,8 +1504,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background high energy 0 degree telescope counts</Name>
       <ParameterKey>ted_ele_eflux_bg_tel0_hi_cps</ParameterKey>
@@ -1516,8 +1516,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED electron background high energy 30 degree telescope counts</Name>
       <ParameterKey>ted_ele_eflux_bg_tel30_hi_cps</ParameterKey>
@@ -1528,8 +1528,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background low energy 0 degree telescope counts</Name>
       <ParameterKey>ted_pro_eflux_bg_tel0_low_cps</ParameterKey>
@@ -1540,8 +1540,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background low energy 30 degree telescope counts</Name>
       <ParameterKey>ted_pro_eflux_bg_tel30_low_cps</ParameterKey>
@@ -1552,8 +1552,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background high energy 0 degree telescope counts</Name>
       <ParameterKey>ted_pro_eflux_bg_tel0_hi_cps</ParameterKey>
@@ -1564,8 +1564,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED proton background high energy 30 degree telescope counts</Name>
       <ParameterKey>ted_pro_eflux_bg_tel30_hi_cps</ParameterKey>
@@ -1576,8 +1576,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>IGRF magnetic field vector at the spacecraft</Name>
       <Description>International Geomagnetic Reference Field vector at the spacecraft in units of nT.</Description>
@@ -1590,34 +1590,34 @@
           <ParameterKey>Br_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Btheta IGRF (satellite)</Name>
           <Index>2</Index>
           <ParameterKey>Bt_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Bphi IGRF (satellite)</Name>
           <Index>3</Index>
           <ParameterKey>Bp_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Btotal IGRF (satellite)</Name>
           <Index>4</Index>
           <ParameterKey>Btot_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>IGRF magnetic field vector at the foot of the field line at the spacecraft</Name>
       <Description>International Geomagnetic Reference Field vector at the foot of the field line at the spacecraft in units of nT.</Description>
@@ -1630,34 +1630,34 @@
           <ParameterKey>Br_foot</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Btheta IGRF (foot of field line)</Name>
           <Index>2</Index>
           <ParameterKey>Bt_foot</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Bphi IGRF (foot of field line)</Name>
           <Index>3</Index>
           <ParameterKey>Bp_foot</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Btotal IGRF (satellite)</Name>
           <Index>4</Index>
           <ParameterKey>Btot_foot</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Geodetic position of footpoint</Name>
       <Description>Geodetic coordinates of the foot of the field line at the spacecraft in units of degrees.</Description>
@@ -1665,7 +1665,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -1674,19 +1674,19 @@
           <ParameterKey>geod_lat_foot</ParameterKey>
           <ValidMin>-90</ValidMin>
           <ValidMax>90</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Geodetic longitude (foot of field line)</Name>
           <Index>2</Index>
           <ParameterKey>geod_lon_foot</ParameterKey>
           <ValidMin>0</ValidMin>
           <ValidMax>360</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>AACGM position of footpoint</Name>
       <Description>Altitude adjustment corrected geomagnetic (AACGM) coordinates of the foot of the field line at the spacecraft in units of degrees.</Description>
@@ -1694,7 +1694,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -1703,19 +1703,19 @@
           <ParameterKey>aacgm_lat_foot</ParameterKey>
           <ValidMin>-90</ValidMin>
           <ValidMax>90</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>AACGM longitude (foot of field line)</Name>
           <Index>2</Index>
           <ParameterKey>aacgm_lon_foot</ParameterKey>
           <ValidMin>0</ValidMin>
           <ValidMax>360</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geomagnetic coordinates of footpoint</Name>
       <Description>Geomagnetic coordinates of the foot of the field line at the spacecraft in units of degrees.</Description>
@@ -1723,7 +1723,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -1732,19 +1732,19 @@
           <ParameterKey>mag_lat_foot</ParameterKey>
           <ValidMin>-90</ValidMin>
           <ValidMax>90</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>magnetic longitude (foot of field line)</Name>
           <Index>2</Index>
           <ParameterKey>mag_lon_foot</ParameterKey>
           <ValidMin>0</ValidMin>
           <ValidMax>360</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geomagnetic coordinates of the spacecraft</Name>
       <Description>Geomagnetic coordinates of the spacecraft in units of degrees.</Description>
@@ -1752,7 +1752,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -1761,19 +1761,19 @@
           <ParameterKey>mag_lat_sat</ParameterKey>
           <ValidMin>-90</ValidMin>
           <ValidMax>90</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>magnetic longitude (satellite)</Name>
           <Index>2</Index>
           <ParameterKey>mag_lon_sat</ParameterKey>
           <ValidMin>0</ValidMin>
           <ValidMax>360</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>IGRF satellite coordinates</Name>
       <Description>International Geomagnetic Reference Field vector at the spacecraft in units of nT.</Description>
@@ -1786,27 +1786,27 @@
           <ParameterKey>Bx_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>By IGRF satellite coordinates (opposite velocity direction)</Name>
           <Index>2</Index>
           <ParameterKey>By_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Bz IGRF satellite coordinates (XxY direction)</Name>
           <Index>3</Index>
           <ParameterKey>Bz_sat</ParameterKey>
           <ValidMin>-32000</ValidMin>
           <ValidMax>32000</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>TED 0 deg telescope pitch angle (satellite)</Name>
       <ParameterKey>ted_alpha_0_sat</ParameterKey>
@@ -1818,8 +1818,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED 30 deg telescope pitch angle (satellite)</Name>
       <ParameterKey>ted_alpha_30_sat</ParameterKey>
@@ -1831,8 +1831,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED 0 deg telescope pitch angle (foot of field line)</Name>
       <ParameterKey>ted_alpha_0_foot</ParameterKey>
@@ -1844,8 +1844,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>TED 30 deg telescope pitch angle (foot of field line)</Name>
       <ParameterKey>ted_alpha_30_sat</ParameterKey>
@@ -1857,8 +1857,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED 0 deg telescope pitch angle (satellite)</Name>
       <ParameterKey>meped_alpha_0_sat</ParameterKey>
@@ -1870,8 +1870,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED 90 deg telescope pitch angle (satellite)</Name>
       <ParameterKey>meped_alpha_90_sat</ParameterKey>
@@ -1883,8 +1883,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED 0 deg telescope pitch angle (foot of field line)</Name>
       <ParameterKey>meped_alpha_0_foot</ParameterKey>
@@ -1896,8 +1896,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED 90 deg telescope pitch angle (foot of field line)</Name>
       <ParameterKey>meped_alpha_90_foot</ParameterKey>
@@ -1909,8 +1909,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>DirectionAngle</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>L value from IGRF field</Name>
       <ParameterKey>L_IGRF</ParameterKey>
@@ -1919,8 +1919,8 @@
       <ValidMax>20</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Magnetic local time (hours)</Name>
       <ParameterKey>MLT</ParameterKey>
@@ -1929,23 +1929,23 @@
       <ValidMax>25</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED IFC flag (0 off 1 on)</Name>
       <ParameterKey>ted_IFC_on</ParameterKey>
       <Description>Total electron detector in-flight calibration flag (0 off 1 on).</Description>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>MEPED IFC flag (0 off 1 on)</Name>
       <ParameterKey>mep_IFC_on</ParameterKey>
       <Description>MEPED in-flight calibration flag (0 off 1 on).</Description>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

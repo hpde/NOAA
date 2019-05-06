@@ -6,30 +6,30 @@
     <ResourceHeader>
       <ResourceName>Los Alamos National Laboratory 01A spacecraft Synchronous Orbit Particle Analyzer (SOPA)</ResourceName>
       <AlternateName>LANL-01A SOPA data</AlternateName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The LANL-97A SOPA data set contains various parameters at about 10 s resolution. These parameters include universal time, spacecraft location, electron and ion energy,  electron and ion particle flux, and electron and ion fluxes.</Description>
       <Acknowledgement>Los Alamos National Laboratory;  Dr. Reiner Friedel.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
-        <Name>National Oceanic and Atmospheric Administration archive of Los Alamos National Laboratory GEO 
-	Synchronous Orbit Particle Analyzer data</Name>
+        <Name>National Oceanic and Atmospheric Administration archive of Los Alamos National Laboratory GEO
+ Synchronous Orbit Particle Analyzer data</Name>
         <URL>https://www.ngdc.noaa.gov/stp/space-weather/satellite-data/satellite-systems/lanl_geo/data/LANL-01A/</URL>
         <Description>Data set of LANL GEO SOPA and MPA data.</Description>
         <Language>EN</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Los Alamos Nation Laboratory spacecraft Synchronous Orbit Particle Analyzer (SOPA)</Name>
-        <URL>https://www.agu.org/journals/ja/v097/iA11/92JA01139/92JA01139.pdf</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/92JA01139</URL>
         <Description>Journal of Geophysical Research Article containing information on the LANL SOPA instrument.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
       <Availability>Online</Availability>
@@ -39,11 +39,11 @@
         <URL>https://www.ngdc.noaa.gov/stp/space-weather/satellite-data/satellite-systems/lanl_geo/data/</URL>
         <Description>NOAA data achive of LANL GEO SOPA and MPA data</Description>
         <Language>EN</Language>
-      </AccessURL>
+</AccessURL>
       <Format>Text.ASCII</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Los Alamos National Laboratory; Dr. Reiner Friedel Dr. Michael G. Henderson</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>LANL-01A SOPA</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/LANL/01A/SOPA</InstrumentID>
@@ -52,9 +52,9 @@
       <TimeSpan>
         <StartDate>2014-01-01T00:00:00</StartDate>
         <StopDate>2014-01-31T23:59:59</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT10.24S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <Keyword>geosynchronus</Keyword>
     <Keyword>LANL</Keyword>
     <Keyword>Synchronous Orbit Particle Analyzer</Keyword>
@@ -65,11 +65,11 @@
       <Description>This is the time of the data collection date and time in ISO 8601 format. Universal Time in data cell: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'.</Description>
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>LATLON</Name>
       <ParameterKey>Column_2-Column_3</ParameterKey>
@@ -79,10 +79,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Lat/Lon</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2</Size>
         <Description>Latitude and Longitude Vector.</Description>
@@ -93,7 +93,7 @@
           <ValidMin>-180</ValidMin>
           <ValidMax>360</ValidMax>
           <FillValue>-99.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Longitude</Name>
           <Index>2</Index>
@@ -101,12 +101,12 @@
           <ValidMin>-180</ValidMin>
           <ValidMax>360</ValidMax>
           <FillValue>-99.0</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>RAD</Name>
       <ParameterKey>Column_4</ParameterKey>
@@ -116,17 +116,17 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Radius</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>-99.0</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>ENERGY_ELEC</Name>
       <ParameterKey>Column_5-Column_14</ParameterKey>
@@ -135,7 +135,7 @@
       <Units>cm^-2 s^-1 sr^-1 keV^-1</Units>
       <RenderingHints>
         <AxisLabel>Spin-avg. Flux [[cm^-2 s^-1 sr^-1 keV^-1]]</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>10</Size>
         <Description>Ten channels of spin-average electron flux. The energy channels are: [60.6958, 89.4161, 128.9860, 185.700, 274.7960, 394.6230, 577.4410, 840.3280, 1210.3, 1580.99] with units of kEv.</Description>
@@ -146,7 +146,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E2</Name>
           <Index>2</Index>
@@ -154,7 +154,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E3</Name>
           <Index>3</Index>
@@ -162,7 +162,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E4</Name>
           <Index>4</Index>
@@ -170,7 +170,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E5</Name>
           <Index>5</Index>
@@ -178,7 +178,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E6</Name>
           <Index>6</Index>
@@ -186,7 +186,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E7</Name>
           <Index>7</Index>
@@ -194,7 +194,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E8</Name>
           <Index>8</Index>
@@ -202,7 +202,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E9</Name>
           <Index>9</Index>
@@ -210,7 +210,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>E10</Name>
           <Index>10</Index>
@@ -218,8 +218,8 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -228,9 +228,9 @@
           <Low>50</Low>
           <High>2500</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>ENERGY_PROT</Name>
       <ParameterKey>Column_15-Column_26</ParameterKey>
@@ -239,7 +239,7 @@
       <Units>cm^-2 s^-1 sr^-1 keV^-1</Units>
       <RenderingHints>
         <AxisLabel>Spin-avg. Flux [[cm^-2 s^-1 sr^-1 keV^-1]]</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>14</Size>
         <Description>Twelve channels of spin-average electron flux. The energy channels are: [61.2373, 92.0598, 138.6000, 206.155, 316.2280, 517.6870, 896.6610, 1509.97, 2426.9300, 3937.0, 6204.8400, 19621.4000] in units of keV</Description>
@@ -250,7 +250,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P2</Name>
           <Index>2</Index>
@@ -258,7 +258,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P3</Name>
           <Index>3</Index>
@@ -266,7 +266,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P4</Name>
           <Index>4</Index>
@@ -274,7 +274,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P5</Name>
           <Index>5</Index>
@@ -282,7 +282,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P6</Name>
           <Index>6</Index>
@@ -290,7 +290,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P7</Name>
           <Index>7</Index>
@@ -298,7 +298,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P8</Name>
           <Index>8</Index>
@@ -306,7 +306,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P9</Name>
           <Index>9</Index>
@@ -314,7 +314,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P10</Name>
           <Index>10</Index>
@@ -322,7 +322,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P11</Name>
           <Index>11</Index>
@@ -330,7 +330,7 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>P12</Name>
           <Index>12</Index>
@@ -338,8 +338,8 @@
           <ValidMin>0.1</ValidMin>
           <ValidMax>10000000</ValidMax>
           <FillValue>-1.0</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -348,8 +348,8 @@
           <Low>50</Low>
           <High>5000</High>
           <Units>keV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</EnergyRange>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

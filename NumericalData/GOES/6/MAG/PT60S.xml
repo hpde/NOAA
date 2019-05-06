@@ -5,35 +5,35 @@
     <ResourceID>spase://NOAA/NumericalData/GOES/6/MAG/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 6 MAG 1-Min Key Parameters</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>GOES 6 Magnetometer 1-Min Key Parameters, in Local S/C Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.D.Zwickl</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_GOES6_HDR_MAG_60S</PriorID>
       <PriorID>spase://VSPO/NumericalData/GOES/6/MAG/PT60S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes06/mag_k0</URL>
-      </AccessURL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes06/mag_k0/</URL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes06/mag_k0</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes06/mag_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=G6_K0_MAG&amp;index=sp_phys</URL>
         <ProductKey>G6_K0_MAG</ProductKey>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/GOES/6/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -41,9 +41,9 @@
       <TimeSpan>
         <StartDate>1992-12-12T00:00:00</StartDate>
         <StopDate>1994-11-25T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT60S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

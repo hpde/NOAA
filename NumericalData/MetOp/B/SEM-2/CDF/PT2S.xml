@@ -5,36 +5,36 @@
     <ResourceID>spase://NOAA/NumericalData/MetOp/B/SEM-2/CDF/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>Meteorological Operational B (MetOp B) Space Environment Monitor 2 (SEM-2) Data, CDF Format, 2 s Resolution</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Polar Orbiting Environmental Satellites, POES, Meteorological Operational B, MetOp B, Particle Precipitation Data, these Data have known Contamination Problems, Please consult the Data Provider, Rob Redmon, at rob.redmon@noaa.gov, for Usage Recommendations</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Janet.C.Green</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.Redmon</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Archive and Instrument Documentation at NOAA National Geophysical Data Center (NGDC)</Name>
-        <URL>https://www.ngdc.noaa.gov/stp/satellite/poes</URL>
+        <URL>https://www.ngdc.noaa.gov/stp/satellite/poes/</URL>
         <Description>Primary POES</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>MEPED Telescope Data Processing Algorithm Theoretical Basis Document, Section 2.2.1</Name>
         <URL>https://www.ngdc.noaa.gov/stp/satellite/poes/docs/NGDC/MEPED%20telescope%20processing%20ATBD_V1.pdf</URL>
         <Description>Further Details on MEPED Contamination Issues</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VSPO/NumericalData/MetOp/B/SEM-2/CDF/PT2S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -43,22 +43,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/noaa/metop1/sem2_fluxes-2sec/</URL>
         <Description>In CDF via ftp from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/noaa/metop1/sem2_fluxes-2sec/</URL>
         <Description>In CDF via http from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=METOP1_POES-SEM2_FLUXES-2SEC&amp;index=sp_phys</URL>
         <ProductKey>METOP1_POES-SEM2_FLUXES-2SEC</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Please acknowledge the data providers and CDAWeb when using these data</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/MetOp/B/SEM-2</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -66,9 +66,9 @@
       <TimeSpan>
         <StartDate>2012-10-03T00:00:00.000</StartDate>
         <RelativeStopDate>-P1D</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT2S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
     <ObservedRegion>Earth.NearSurface</ObservedRegion>
@@ -87,14 +87,14 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
       <ValidMax>2029-12-31T23:59:59.999000000</ValidMax>
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Time</Name>
       <ParameterKey>time</ParameterKey>
@@ -107,8 +107,8 @@
       <FillValue>-2.14748e+09</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Year</Name>
       <ParameterKey>year</ParameterKey>
@@ -121,8 +121,8 @@
       <FillValue>-2.14748e+09</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Day of Year</Name>
       <ParameterKey>day</ParameterKey>
@@ -135,8 +135,8 @@
       <FillValue>-2.14748e+09</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Milliseconds of Day</Name>
       <ParameterKey>msec</ParameterKey>
@@ -149,8 +149,8 @@
       <FillValue>-2.14748e+09</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -162,18 +162,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -185,18 +185,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, 189 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -208,18 +208,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, 844 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -231,18 +231,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, 2595 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -254,18 +254,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, 7980 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -277,18 +277,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux, Spectrograms</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -300,18 +300,18 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Energies</Name>
       <ParameterKey>ted_ele_diff_energies</ParameterKey>
@@ -321,26 +321,26 @@
       <UnitsConversion>1.60218e-19&gt;J</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>100.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -348,8 +348,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Telescope Direction</Name>
       <ParameterKey>ted_telescopes</ParameterKey>
@@ -358,25 +358,25 @@
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>30.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -388,18 +388,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -411,18 +411,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 189 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -434,18 +434,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 844 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -457,18 +457,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 2595 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -480,18 +480,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 7980 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -503,18 +503,18 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Spectrograms, 189 eV to 7980 eV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -526,18 +526,18 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Energies</Name>
       <ParameterKey>ted_pro_diff_energies</ParameterKey>
@@ -547,26 +547,26 @@
       <UnitsConversion>1.60218e-19&gt;J</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>100.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -574,8 +574,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 0&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -588,7 +588,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_LowE_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -597,8 +597,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 30&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -611,7 +611,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_LowE_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -620,8 +620,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 0&#xB0; Telescope, Low Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -632,7 +632,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_LowE_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -642,8 +642,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 30&#xB0; Telescope, Low Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -654,7 +654,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_LowE_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -664,8 +664,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 0&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -678,7 +678,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_HiE_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -687,8 +687,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 30&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -701,7 +701,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_HiE_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -710,8 +710,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 0&#xB0; Telescope, High Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -722,7 +722,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_HiE_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -732,8 +732,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Energy Flux, 30&#xB0; Telescope, High Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -744,7 +744,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_HiE_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -754,8 +754,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 0&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -768,7 +768,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_LowE_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -777,8 +777,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 30&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -791,7 +791,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_LowE_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -800,8 +800,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 0&#xB0; Telescope, Low Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -812,7 +812,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_LowE_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -822,8 +822,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 30&#xB0; Telescope, Low Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -834,7 +834,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_LowE_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -844,8 +844,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 0&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -858,7 +858,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_HiE_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -867,8 +867,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 30&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -881,7 +881,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_HiE_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -890,8 +890,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 0&#xB0; Telescope, High Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -902,7 +902,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T0deg_HiE_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -912,8 +912,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Energy Flux, 30&#xB0; Telescope, High Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -924,7 +924,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_T30deg_HiE_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -934,8 +934,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Atmospheric Integral Energy Flux, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -948,7 +948,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_LowE_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-6400.0</ValidMin>
       <ValidMax>6400.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -957,8 +957,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Atmospheric Integral Energy Flux, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -971,7 +971,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_HiE_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-6400.0</ValidMin>
       <ValidMax>6400.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -980,8 +980,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Atmospheric Integral Energy Flux, Low Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -992,7 +992,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_LowE_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1002,8 +1002,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Atmospheric Integral Energy Flux, High Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1014,7 +1014,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_HiE_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1024,8 +1024,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Total Atmospheric Integral Energy Flux</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1038,7 +1038,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_Total_Elec_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-12800.0</ValidMin>
       <ValidMax>6400.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1047,8 +1047,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Total Atmospheric Integral Energy Flux, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1059,7 +1059,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_Total_Elec_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1069,8 +1069,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Atmospheric Integral Energy Flux, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1083,7 +1083,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_LowE_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-6400.0</ValidMin>
       <ValidMax>6400.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1092,8 +1092,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Atmospheric Integral Energy Flux, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1106,7 +1106,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_HiE_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-6400.0</ValidMin>
       <ValidMax>6400.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1115,8 +1115,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Atmospheric Integral Energy Flux, Low Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1127,7 +1127,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_LowE_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1137,8 +1137,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Atmospheric Integral Energy Flux, High Energy, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1149,7 +1149,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_HiE_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1159,8 +1159,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Total Atmospheric Integral Energy Flux</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1173,7 +1173,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_Total_Prtn_EngyFlux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-12800.0</ValidMin>
       <ValidMax>6400.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1182,8 +1182,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Total Atmospheric Integral Energy Flux, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1194,7 +1194,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>TED_Atmo_Total_Prtn_EngyFlux%Err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1204,8 +1204,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron and Proton Total Atmospheric Integral Energy Flux, at 120 km</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1219,7 +1219,7 @@
         <AxisLabel>ted_total_eflux_atmo</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-25600.0</ValidMin>
       <ValidMax>25600.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1229,8 +1229,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron and Proton Total Atmospheric Integral Energy Flux, at 120 km, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1243,7 +1243,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_total_eflux_atmo_err</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1254,8 +1254,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Characteristic Energy Channel, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1267,14 +1267,14 @@
         <AxisLabel>ted_ele_CharEnergy_tel0</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>15</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Characteristic Energy Channel, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1286,14 +1286,14 @@
         <AxisLabel>ted_ele_CharEnergy_tel30</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>15</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Proton Characteristic Energy Channel, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1305,14 +1305,14 @@
         <AxisLabel>ted_pro_CharEnergy_tel0</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>15</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Proton Characteristic Energy Channel, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1324,14 +1324,14 @@
         <AxisLabel>ted_pro_CharEnergy_tel30</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>15</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Maximum Differential Flux, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1344,7 +1344,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_max_flux_tel0</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.0e+09</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1354,8 +1354,8 @@
         <Qualifier>Maximum</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Maximum Differential Flux, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1368,7 +1368,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_max_flux_tel30</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.0e+09</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1378,8 +1378,8 @@
         <Qualifier>Maximum</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Maximum Differential Flux, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1392,7 +1392,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_max_flux_tel0</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.0e+09</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1402,8 +1402,8 @@
         <Qualifier>Maximum</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Maximum Differential Flux, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1416,7 +1416,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_max_flux_tel30</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.0e+09</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1426,8 +1426,8 @@
         <Qualifier>Maximum</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Integral Energy Flux, 0&#xB0; Telescope, Low Energy, 50 eV to 1000 eV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1440,7 +1440,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel0_low</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1450,8 +1450,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Integral Energy Flux, 330&#xB0; Telescope, Low Energy, 50 eV to 1000 eV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1464,7 +1464,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel30_lo</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1474,8 +1474,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Integral Energy Flux, 30&#xB0; Telescope, High Energy, 1 keV to 20 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1488,7 +1488,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel0_hi</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1498,8 +1498,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Integral Energy Flux, 330&#xB0; Telescope, High Energy, 1 keV to 20 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1512,7 +1512,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel30_hi</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1522,8 +1522,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Integral Energy Flux, 0&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1536,7 +1536,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel0_low</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1546,8 +1546,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Integral Energy Flux, 30&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1560,7 +1560,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel30_low</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1570,8 +1570,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Integral Energy Flux, 0&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1584,7 +1584,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel0_hi</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1594,8 +1594,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Integral Energy Flux, 30&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1608,7 +1608,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel30_hi</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1618,8 +1618,8 @@
         <Qualifier>Minimum</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Counts, 0&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1630,7 +1630,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel0_0.05-1keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1639,8 +1639,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Counts, 30&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1651,7 +1651,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel30_0.05-1keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1660,8 +1660,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Counts, 0&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1672,7 +1672,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel0_1-20keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1681,8 +1681,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Background Counts, 30&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1693,7 +1693,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_ele_eflux_bg_tel30_1-20keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1702,8 +1702,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Counts, 0&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1714,7 +1714,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel0_0.05-1keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1723,8 +1723,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Counts, 30&#xB0; Telescope, Low Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1735,7 +1735,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel30_0.05-1keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1744,8 +1744,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Counts, 0&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1756,7 +1756,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel0_1-20keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1765,8 +1765,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Background Counts, 30&#xB0; Telescope, High Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1777,7 +1777,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>ted_pro_eflux_bg_tel30_1-20keV_cps</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.99885e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1786,8 +1786,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Minimum</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Satellite, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1801,14 +1801,14 @@
         <AxisLabel>ted_alpha_0_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Satellite, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1822,14 +1822,14 @@
         <AxisLabel>ted_alpha_30_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Footpoint, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1843,14 +1843,14 @@
         <AxisLabel>ted_alpha_0_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Footpoint, 30&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1864,14 +1864,14 @@
         <AxisLabel>ted_alpha_30_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>TED IFC Flag</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1883,14 +1883,14 @@
         <AxisLabel>ted_IFC_on</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 0#176; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1902,18 +1902,18 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 0#176; Telescope, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1923,10 +1923,10 @@
       <Cadence>PT2S</Cadence>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -1934,8 +1934,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 90#176; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1947,18 +1947,18 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 90#176; Telescope, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1968,10 +1968,10 @@
       <Cadence>PT2S</Cadence>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -1979,8 +1979,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, Spectrograms</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1992,18 +1992,18 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, Percent Error, Spectrograms</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2013,10 +2013,10 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -2024,8 +2024,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 0#176; and 90#176; Telescopes, &gt;40 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2037,18 +2037,18 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 0#176; and 90#176; Telescopes, &gt;130 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2060,18 +2060,18 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 0#176; and 90#176; Telescopes, &gt;287 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2083,18 +2083,18 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, 0#176; and 90#176; Telescopes, &gt;612 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2106,18 +2106,18 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 4</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Integral Flux, Energies</Name>
       <ParameterKey>mep_ele_int_energies</ParameterKey>
@@ -2127,26 +2127,26 @@
       <UnitsConversion>1.60218e-16&gt;J</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>30.0</ValidMin>
       <ValidMax>800.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2154,8 +2154,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>MEPED Telescope Directions</Name>
       <ParameterKey>mep_telescopes</ParameterKey>
@@ -2164,25 +2164,25 @@
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2194,18 +2194,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; Telescope, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2215,10 +2215,10 @@
       <Cadence>PT2S</Cadence>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
@@ -2226,8 +2226,8 @@
         <Qualifier>Differential</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 90#176; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2239,18 +2239,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 90#176; Telescope, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2260,10 +2260,10 @@
       <Cadence>PT2S</Cadence>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
@@ -2271,8 +2271,8 @@
         <Qualifier>Differential</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Spectrograms, &gt;40 keV to &gt;612 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2284,18 +2284,18 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Percent Error, Spectrograms</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2305,10 +2305,10 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
@@ -2316,8 +2316,8 @@
         <Qualifier>Differential</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; and 90#176; Telescopes, 39 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2329,18 +2329,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; and 90#176; Telescopes, 115 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2352,18 +2352,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; and 90#176; Telescopes, 332 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2375,18 +2375,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; and 90#176; Telescopes, 1105 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2398,18 +2398,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, 0#176; and 90#176; Telescopes, 2723 keV</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2421,18 +2421,18 @@
       <UnitsConversion>6.24161e19&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2 5</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Energies</Name>
       <ParameterKey>mep_pro_diff_energies</ParameterKey>
@@ -2442,30 +2442,30 @@
       <UnitsConversion>1.60218e-16&gt;J</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>30.0</ValidMin>
       <ValidMax>4000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2473,8 +2473,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Flux, 0#176; and 90#176; Telescopes</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2485,7 +2485,7 @@
       <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -2493,16 +2493,16 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>0.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2511,8 +2511,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Integral</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Integral Flux, 0#176; and 90#176; Telescopes, Percent Error</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2521,7 +2521,7 @@
       <Cadence>PT2S</Cadence>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -2529,16 +2529,16 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>0.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>1.0e-05</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2548,8 +2548,8 @@
         <Qualifier>Integral</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Omnidirectional Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2561,7 +2561,7 @@
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J)^-1</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2569,23 +2569,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>25.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_Omni_50keV_PrtnDiffFlux</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>50.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_Omni_100keV_PrtnDiffFlux</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2594,8 +2594,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Omnidirectional Telescope, Spectrograms in Energy</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2607,7 +2607,7 @@
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2615,23 +2615,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>25.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_Omni_50keV_PrtnDiffFlux</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>50.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_Omni_100keV_PrtnDiffFlux</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2640,8 +2640,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux, Omnidirectional Telescope, Energies</Name>
       <ParameterKey>mep_omni_energies</ParameterKey>
@@ -2651,22 +2651,22 @@
       <UnitsConversion>1.60218e-13&gt;J</UnitsConversion>
       <RenderingHints>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>20.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2674,8 +2674,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Fit Flag for Proton Differential Flux, Fit Flag</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2687,14 +2687,14 @@
         <AxisLabel>MEPED_OmniFitFlag</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Fit Flag for Proton Differential Flux, Iteration Limit</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2706,14 +2706,14 @@
         <AxisLabel>mep_omni_flux_flag_iter_lim</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Omnidirectional Gamma</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2724,7 +2724,7 @@
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2732,23 +2732,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>25.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_50keV_OmniGamma</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>50.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_100keV_OmniGamma</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-50.0</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2756,8 +2756,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Omnidirectional Gamma, Spectrograms</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2768,7 +2768,7 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2776,23 +2776,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>25.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_50keV_OmniGamma</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>50.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>MEP_100keV_OmniGamma</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-50.0</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2800,8 +2800,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle at the Satellite, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2815,14 +2815,14 @@
         <AxisLabel>meped_alpha_0_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle at the Satellite, 90&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2836,14 +2836,14 @@
         <AxisLabel>meped_alpha_90_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle at the Satellite Footpoint, 0&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2857,14 +2857,14 @@
         <AxisLabel>meped_alpha_0_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle at the Satellite Footpoint, 90&#xB0; Telescope</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2878,14 +2878,14 @@
         <AxisLabel>meped_alpha_90_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>MEPED IFC Flag</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2897,14 +2897,14 @@
         <AxisLabel>mep_IFC_on</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Designation ID</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2916,14 +2916,14 @@
         <AxisLabel>satID</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1.0</ValidMin>
       <ValidMax>40.0</ValidMax>
       <FillValue>-2.14748e+09</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Orbital Direction</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2935,14 +2935,14 @@
         <AxisLabel>sat_direction</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-2.14748e+09</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Geodetic Altitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2956,15 +2956,15 @@
         <AxisLabel>Altitude</AxisLabel>
         <ValueFormat>F7.1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>800.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Geodetic Latitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2976,21 +2976,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GeodLat</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Geodetic Longitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3002,21 +3002,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GeodLon</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Latitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3028,21 +3028,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MagLat_sat</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Longitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3054,21 +3054,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MagLon_sat</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite L Shell, IGRF</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3080,15 +3080,15 @@
         <AxisLabel>L_IGRF</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>20.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Local Time</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3102,15 +3102,15 @@
         <AxisLabel>MLT</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>25.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Geodetic Latitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3122,21 +3122,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GeodLat_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Geodetic Longitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3148,21 +3148,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GeodLon_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint AACGM Latitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3174,21 +3174,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>AACGM_Lat_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint AACGM Longitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3200,21 +3200,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>AACGM_Lon_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Magnetic Latitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3226,21 +3226,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MagLat_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Magnetic Longitude</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3252,21 +3252,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MagLon_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Field Radial Component</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3278,13 +3278,13 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Br_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3292,8 +3292,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Field Theta Component</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3305,21 +3305,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Bt_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Field Phi Component</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3331,21 +3331,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Bp_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Total Magnetic Field</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3359,7 +3359,7 @@
         <AxisLabel>Btot_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3367,8 +3367,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Total</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Radial Component, Footpoint</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3380,13 +3380,13 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Br_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3394,8 +3394,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Theta Component, Footpoint</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3407,21 +3407,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Bt_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Phi Component, Footpoint</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3433,21 +3433,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Bp_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Total Magnetic Field, Footpoint</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3461,7 +3461,7 @@
         <AxisLabel>Btot_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3469,8 +3469,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Total</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Position, X Component, IGRF</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3482,21 +3482,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Bx_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.I</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Position, Y Component, IGRF</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3508,21 +3508,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>By_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.J</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Position, Z Component, IGRF</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3534,21 +3534,21 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Bz_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.K</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Altitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3562,15 +3562,15 @@
         <AxisLabel>Altitude</AxisLabel>
         <ValueFormat>F7.1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>800.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geodetic Latitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3583,20 +3583,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>GeodLat</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geodetic Longitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3609,20 +3609,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>GeodLon</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>L Shell, IGRF, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3634,15 +3634,15 @@
         <AxisLabel>L_IGRF</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>20.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Magnetic Local Time, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3656,15 +3656,15 @@
         <AxisLabel>MLT</AxisLabel>
         <ValueFormat>F4.1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>25.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Geodetic Latitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3677,20 +3677,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>GeodLat_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Geodetic Longitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3703,20 +3703,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>WGS84</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>GeodLon_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint AACGM Latitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3729,20 +3729,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>AACGM_Lat_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint AACGM Longitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3755,20 +3755,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>AACGM_Lon_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Magnetic Latitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3781,20 +3781,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>MagLat_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Footpoint Magnetic Longitude, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3807,20 +3807,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>MagLon_foot</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Field Radial Component, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3833,12 +3833,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Br_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3846,8 +3846,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Field Theta Component, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3860,20 +3860,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Bt_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Magnetic Field Phi Component, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3886,20 +3886,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Bp_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Total Magnetic Field, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3913,7 +3913,7 @@
         <AxisLabel>Btot_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3921,8 +3921,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Total</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Radial Component, Footpoint, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3935,12 +3935,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Br_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3948,8 +3948,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Theta Component, Footpoint, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3962,20 +3962,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Bt_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Phi Component, Footpoint, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3988,20 +3988,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Bp_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Total Magnetic Field, Footpoint, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4015,7 +4015,7 @@
         <AxisLabel>Btot_foot</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -4023,8 +4023,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Total</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Satellite Position, X Component, IGRF, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4037,20 +4037,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Bx_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.I</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Position, Y Component, IGRF, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4063,20 +4063,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>By_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.J</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Satellite Position, Z Component, IGRF, Text Label</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4089,19 +4089,19 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>CGM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Bz_sat</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.K</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

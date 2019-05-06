@@ -5,31 +5,31 @@
     <ResourceID>spase://NOAA/NumericalData/POES/17/SEM-2/TED/CDF/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 17 POES Space Environment Monitor-2 (SEM-2Total Energy Detector (TED) Data in CDF format, 2s Resolution</ResourceName>
-      <ReleaseDate>2018-03-30T14:12:05Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>ViRBO has processed the raw binary files for NOAA-15 onward. The data include the 2-second-resolution parameters in the raw binary files along with the corrected parameters.  See http://virbo.org/POES for processing code and information.</Description>
       <Acknowledgement>For instrument, see https://www.ngdc.noaa.gov/stp/satellite/poes/index.html. Code used to extract data was written by Dave Evans and Sue Greer (Fortran) and Janet Green (Matlab)</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Janet.C.Green</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ViRBO web page for this dataset</Name>
         <URL>http://virbo.org/POES</URL>
         <Description>Top-level directory for this data set</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://ViRBO/NumericalData/POES17/SEM-2/TED/Reprocessed/PT1S</PriorID>
       <PriorID>spase://NOAA/NumericalData/POES17/SEM-2/TED/Reprocessed/PT2S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>
       <AccessURL>
         <Name>Top-level ftp directory for this data set</Name>
-        <URL>http://mag.gmu.edu/ftp/POES/n17</URL>
+        <URL>http://mag.gmu.edu/ftp/POES/n17/</URL>
         <Description>Top-level directory for this data set</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-    </AccessInformation>
+</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/NOAA/17/SEM-2</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -37,9 +37,9 @@
       <TimeSpan>
         <StartDate>2002-07-12T00:00:00.000Z</StartDate>
         <StopDate>2013-10-16T00:00:00.000Z</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT2S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <Parameter>
       <Name>Epoch Time</Name>
@@ -52,8 +52,8 @@
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>year (NGDC 1-sec)</Name>
       <ParameterKey>year</ParameterKey>
@@ -65,8 +65,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>day_of_year (NGDC 1-sec)</Name>
       <ParameterKey>day_of_year</ParameterKey>
@@ -78,8 +78,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>hour (NGDC 1-sec)</Name>
       <ParameterKey>hour</ParameterKey>
@@ -91,8 +91,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>minute (NGDC 1-sec)</Name>
       <ParameterKey>minute</ParameterKey>
@@ -104,8 +104,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>second (NGDC 1-sec)</Name>
       <ParameterKey>second</ParameterKey>
@@ -117,8 +117,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>satellite_altitude (NGDC 1-sec)</Name>
       <ParameterKey>satellite_altitude</ParameterKey>
@@ -130,8 +130,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>orbit_number (NGDC 1-sec)</Name>
       <ParameterKey>orbit_number</ParameterKey>
@@ -143,8 +143,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-1 perpendicular .03-.08 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P1_90</ParameterKey>
@@ -156,8 +156,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-2 perpendicular .08-.24 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P2_90</ParameterKey>
@@ -169,8 +169,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-3 perpendicular .24-.80 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P3_90</ParameterKey>
@@ -182,8 +182,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-4 perpendicular .80-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P4_90</ParameterKey>
@@ -195,8 +195,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-5 perpendicular 2.50-6.90 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P5_90</ParameterKey>
@@ -208,8 +208,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-6 perpendicular &gt;6.00 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P6_90</ParameterKey>
@@ -221,8 +221,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>electron-1 perpendicular .03-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>E1_90</ParameterKey>
@@ -234,8 +234,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>electron-2 perpendicular .10-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>E2_90</ParameterKey>
@@ -247,8 +247,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>electron-3 perpendicular .30-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>E3_90</ParameterKey>
@@ -260,8 +260,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-1 field aligned .03-.08 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P1_0</ParameterKey>
@@ -273,8 +273,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-2 field aligned .08-.24 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P2_0</ParameterKey>
@@ -286,8 +286,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-3 field aligned .24-.80 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P3_0</ParameterKey>
@@ -299,8 +299,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-4 field aligned .80-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P4_0</ParameterKey>
@@ -312,8 +312,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-5 field aligned 2.50-6.90 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P5_0</ParameterKey>
@@ -325,8 +325,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-6 field aligned &gt;6.00 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P6_0</ParameterKey>
@@ -338,8 +338,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>electron-1 field aligned .03-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>E1_0</ParameterKey>
@@ -351,8 +351,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>electron-2 field aligned .10-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>E2_0</ParameterKey>
@@ -364,8 +364,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>electron-3 field aligned .30-2.50 MeV (NGDC 1-sec)</Name>
       <ParameterKey>E3_0</ParameterKey>
@@ -377,8 +377,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-6 dome 16 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P6_Omni_directional</ParameterKey>
@@ -390,8 +390,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-7 dome 35 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P7_Omni_directional</ParameterKey>
@@ -403,8 +403,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-8 dome 80 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P8_Omni_directional</ParameterKey>
@@ -416,8 +416,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>proton-9 dome 140 MeV (NGDC 1-sec)</Name>
       <ParameterKey>P9_Omni_directional</ParameterKey>
@@ -429,8 +429,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>satellite inclination (NGDC 1-sec)</Name>
       <ParameterKey>satellite_inclination</ParameterKey>
@@ -442,8 +442,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>sub-satellite latitude (NGDC 1-sec)</Name>
       <ParameterKey>sub_satellite_latitude</ParameterKey>
@@ -455,8 +455,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>sub-satellite longitude (NGDC 1-sec)</Name>
       <ParameterKey>sub_satellite_longitude</ParameterKey>
@@ -468,8 +468,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>radial component of B at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>radial_component_of_B_at_the_satellite</ParameterKey>
@@ -481,8 +481,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>east component of B at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>east_component_of_B_at_the_satellite</ParameterKey>
@@ -494,8 +494,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>south component of B at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>south_component_of_B_at_the_satellite</ParameterKey>
@@ -507,8 +507,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>scalar value of B at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>scalar_value_of_B_at_the_satellite</ParameterKey>
@@ -520,8 +520,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>0 degree TED p/a at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>TED_0_degree_pa_at_the_satellite</ParameterKey>
@@ -533,8 +533,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>30 degree TED p/a at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>TED_30_degree_pa_at_the_satellite</ParameterKey>
@@ -546,8 +546,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>0 degree MEPED p/a at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>MEPED_0_degree_pa_at_the_satellite</ParameterKey>
@@ -559,8 +559,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>90 degree MEPED p/a at the satellite (NGDC 1-sec)</Name>
       <ParameterKey>MEPED_90_degree_pa_at_the_satellite</ParameterKey>
@@ -572,8 +572,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>radial component of B at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>radial_component_of_B_at_the_fofl</ParameterKey>
@@ -585,8 +585,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>east component of B at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>east_component_of_B_at_the_fofl</ParameterKey>
@@ -598,8 +598,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>south component of B at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>south_component_of_B_at_the_fofl</ParameterKey>
@@ -611,8 +611,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>scalar value of B at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>scalar_value_of_B_at_the_fofl</ParameterKey>
@@ -624,8 +624,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>0 degree TED p/a at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>TED_0_degree_pa_at_the_fofl</ParameterKey>
@@ -637,8 +637,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>30 degree TED p/a at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>TED_30_degree_pa_at_the_fofl</ParameterKey>
@@ -650,8 +650,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>0 MEPED p/a at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>MEPED_0_pa_at_the_fofl</ParameterKey>
@@ -663,8 +663,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>90 MEPED p/a at the fofl (NGDC 1-sec)</Name>
       <ParameterKey>MEPED_90_pa_at_the_fofl</ParameterKey>
@@ -676,8 +676,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>fofl geographic latitude (NGDC 1-sec)</Name>
       <ParameterKey>fofl_geographic_latitude</ParameterKey>
@@ -689,8 +689,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>fofl geographic longitude (NGDC 1-sec)</Name>
       <ParameterKey>fofl_geographic_longitude</ParameterKey>
@@ -702,8 +702,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>fofl geomagnetic latitude (NGDC 1-sec)</Name>
       <ParameterKey>fofl_geomagnetic_latitude</ParameterKey>
@@ -715,8 +715,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>fofl geomag longitude (NGDC 1-sec)</Name>
       <ParameterKey>fofl_geomagnetic_longitude</ParameterKey>
@@ -728,8 +728,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>McIlwain L-value (NGDC 1-sec)</Name>
       <ParameterKey>McIlwain_L_value</ParameterKey>
@@ -741,8 +741,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>corrected magnetic latitude (NGDC 1-sec)</Name>
       <ParameterKey>corrected_magnetic_latitude</ParameterKey>
@@ -754,8 +754,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>sub-satellite local time (NGDC 1-sec)</Name>
       <ParameterKey>sub_satellite_local_time</ParameterKey>
@@ -767,8 +767,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>fofl magnetic local time (0-360) (NGDC 1-sec)</Name>
       <ParameterKey>fofl_magnetic_local_time</ParameterKey>
@@ -780,8 +780,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>MEPED_On_Off (NGDC 1-sec)</Name>
       <ParameterKey>MEPED_On_Off</ParameterKey>
@@ -793,8 +793,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>TED_On_Off (NGDC 1-sec)</Name>
       <ParameterKey>TED_On_Off</ParameterKey>
@@ -806,8 +806,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>MEPED_IFC (NGDC 1-sec)</Name>
       <ParameterKey>MEPED_IFC</ParameterKey>
@@ -819,8 +819,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>TED_IFC (NGDC 1-sec)</Name>
       <ParameterKey>TED_IFC</ParameterKey>
@@ -832,8 +832,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>TED_electron_discriminator_level (NGDC 1-sec)</Name>
       <ParameterKey>TED_electron_discriminator_level</ParameterKey>
@@ -845,8 +845,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>TED_proton_discriminator_level (NGDC 1-sec)</Name>
       <ParameterKey>TED_proton_discriminator_level</ParameterKey>
@@ -858,8 +858,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>TED_electron_HV_supply (NGDC 1-sec)</Name>
       <ParameterKey>TED_electron_HV_supply</ParameterKey>
@@ -871,8 +871,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>TED_proton_HV_supply (NGDC 1-sec)</Name>
       <ParameterKey>TED_proton_HV_supply</ParameterKey>
@@ -884,8 +884,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>mu_processor_in_use (NGDC 1-sec)</Name>
       <ParameterKey>mu_processor_in_use</ParameterKey>
@@ -897,8 +897,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>mu_processor_error_flag (NGDC 1-sec)</Name>
       <ParameterKey>mu_processor_error_flag</ParameterKey>
@@ -910,8 +910,8 @@
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P1_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P1_90_corrected</ParameterKey>
@@ -923,8 +923,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P2_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P2_90_corrected</ParameterKey>
@@ -936,8 +936,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P3_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P3_90_corrected</ParameterKey>
@@ -949,8 +949,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P4_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P4_90_corrected</ParameterKey>
@@ -962,8 +962,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P5_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P5_90_corrected</ParameterKey>
@@ -975,8 +975,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P1_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P1_0_corrected</ParameterKey>
@@ -988,8 +988,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P2_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P2_0_corrected</ParameterKey>
@@ -1001,8 +1001,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P3_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P3_0_corrected</ParameterKey>
@@ -1014,8 +1014,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P4_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P4_0_corrected</ParameterKey>
@@ -1027,8 +1027,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>P5_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>P5_0_corrected</ParameterKey>
@@ -1040,8 +1040,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>E1_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>E1_90_corrected</ParameterKey>
@@ -1053,8 +1053,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>E2_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>E2_90_corrected</ParameterKey>
@@ -1066,8 +1066,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>E3_90_corrected (NGDC 1-sec)</Name>
       <ParameterKey>E3_90_corrected</ParameterKey>
@@ -1079,8 +1079,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>E1_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>E1_0_corrected</ParameterKey>
@@ -1092,8 +1092,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>E2_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>E2_0_corrected</ParameterKey>
@@ -1105,8 +1105,8 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>E3_0_corrected (NGDC 1-sec)</Name>
       <ParameterKey>E3_0_corrected</ParameterKey>
@@ -1118,7 +1118,7 @@
       <FillValue>-1.0E31</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
-  </NumericalData>
+</Mixed>
+</Parameter>
+</NumericalData>
 </Spase>

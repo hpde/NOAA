@@ -6,45 +6,45 @@
     <ResourceHeader>
       <ResourceName>GOES 5 Energetic Particle Sensor at 3 s Time Resolution</ResourceName>
       <AlternateName>GOES 5 EPS data</AlternateName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The GOES 5 EPS data set contains various parameters at 3 s time resolution. Within the data files is the time given as seconds of the month where the date is given in the filename, a flag word that provides information on the data and satellite command state in a flagword, and the measured counts for a subset of available channels, which are indicated by the flagword.</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories, Harold Leinbach, Herbert H. Sauer, Terry G. Onsager</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GOES 5 Energetic Particle Sensor</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-049A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-049A-02</URL>
         <Description>Introduction to the GOES 5 Energetic Particle Sensor.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 5 Energetic Particle Sensor Data File Information</Name>
         <URL>https://satdat.ngdc.noaa.gov/sem/goes/software/part.txt</URL>
         <Description>Additional GOES EPS information.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 5 Energetic Particle Sensor Additional Data File Information</Name>
         <URL>ftp://satdat.ngdc.noaa.gov/sem/goes/goes_docs/full/readme.txt</URL>
         <Description>Additional GOES EPS data file information.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VMO/NumericalData/GOES/5/EPS/HighRes/PT3S</PriorID>
       <PriorID>spase://VMO/NumericalData/GOES5/EPS/HighRes/PT3S</PriorID>
       <PriorID>spase://VMO/NumericalData/GOES/5/EPS/PT3S</PriorID>
       <PriorID>spase://VSPO/NumericalData/GOES/5/EPS/PT3S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/SEC</RepositoryID>
       <Availability>Online</Availability>
@@ -53,11 +53,11 @@
         <Name>Direct access to the GOES 5 EPS data</Name>
         <URL>ftp://satdat.ngdc.noaa.gov/sem/goes/data/full/</URL>
         <Description>Direct link to the GOES 5 EPS data in FITS format as well as the energetic particle data from other GOES spacecraft. The data are sorted by year. The file names indicates the data type, spacecraft number, year, month, and resolution. For example, P0137607.FIT indicates particle data (P) for spacecraft 1 (01) at 3 s time resolution (3) from July 1976 (7607). Note that spacecraft IDs 91 and 92 refer to SMS satellites, not GOES.</Description>
-      </AccessURL>
+</AccessURL>
       <Format>FITS</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>NOAA Environmental Research Laboratories, Harold Leinbach, Herbert H. Sauer, Terry G. Onsager</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>NOAA GOES 5 EPS</ProviderResourceName>
     <ProviderProcessingLevel>Level-2</ProviderProcessingLevel>
@@ -68,9 +68,9 @@
         <StartDate>1984-04-01T00:00:00</StartDate>
         <StopDate>1987-02-28T00:00:00</StopDate>
         <Note>Time format in data files is seconds of the month. The year and month are derived from the file name.</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT3S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <Caveats>The flag values are equal to 32711000, these data are temporarily offline until further notice</Caveats>
     <Keyword>3 s</Keyword>
     <Keyword>geosynchronous</Keyword>
@@ -84,8 +84,8 @@
       <Cadence>PT3S</Cadence>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Flag Word</Name>
       <ParameterKey>Flag Word</ParameterKey>
@@ -93,8 +93,8 @@
       <Cadence>PT3S</Cadence>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>GOES 5 EPS 2-Channel Multiplexer at 3 s Time Resolution</Name>
       <ParameterKey>MPX2</ParameterKey>
@@ -107,8 +107,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>GOES 5 EPS 4-Channel Multiplexer at 3 s Time Resolution</Name>
       <ParameterKey>MPX4</ParameterKey>
@@ -121,8 +121,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>GOES 5 EPS 8-Channel Multiplexer at 3 s Time Resolution</Name>
       <ParameterKey>MPX8</ParameterKey>
@@ -135,7 +135,7 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

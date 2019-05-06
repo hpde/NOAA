@@ -5,25 +5,25 @@
     <ResourceID>spase://NOAA/DisplayData/GOES/EPM/PLOTS</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES Proton and Electron Flux Plots</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>GOES energetic proton and electron plots from NOAA/SEC, 3-day plots of 5-min data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Viola.J.Raben</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/DisplayData/P_GOES_HDR_EPS_PLOTS</PriorID>
       <PriorID>spase://VSPO/DisplayData/GOES/EPM/PLOTS</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>NOAA/NGDC site</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/goes/data/new_plots/</URL>
-      </AccessURL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/goes/data/new_plots/</URL>
+</AccessURL>
       <Format>PDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/GOES/8/EPM</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/GOES/10/SEM</InstrumentID>
@@ -35,9 +35,9 @@
         <StartDate>2000-01-01T00:00:00</StartDate>
         <RelativeStopDate>-P1M</RelativeStopDate>
         <Note>Data are current to within a month.</Note>
-      </TimeSpan>
-    </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
     <DisplayCadence>PT300S</DisplayCadence>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </DisplayData>
+</DisplayData>
 </Spase>

@@ -5,25 +5,25 @@
     <ResourceID>spase://NOAA/DisplayData/GOES/SXM/PLOTS</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES X-ray Flux Plots</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>GOES X-ray plots from NOAA/SEC, 3-day plots of 5-min data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Viola.J.Raben</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/DisplayData/P_GOES_HDR_XRAY_PLOTS</PriorID>
       <PriorID>spase://VSPO/DisplayData/GOES/SXM/PLOTS</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>NOAA/NGDC site</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/goes/data/new_plots/</URL>
-      </AccessURL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/goes/data/new_plots/</URL>
+</AccessURL>
       <Format>PDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/GOES/8/SXM</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/GOES/10/SEM</InstrumentID>
@@ -35,10 +35,10 @@
         <StartDate>2000-01-01T00:00:00</StartDate>
         <RelativeStopDate>-P1M</RelativeStopDate>
         <Note>Data are current to to within a month.</Note>
-      </TimeSpan>
-    </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
     <SpectralRange>XRays</SpectralRange>
     <DisplayCadence>PT300S</DisplayCadence>
     <ObservedRegion>Sun</ObservedRegion>
-  </DisplayData>
+</DisplayData>
 </Spase>

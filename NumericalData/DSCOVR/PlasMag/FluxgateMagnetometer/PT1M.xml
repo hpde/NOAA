@@ -5,29 +5,29 @@
     <ResourceID>spase://NOAA/NumericalData/DSCOVR/PlasMag/FluxgateMagnetometer/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>DSCOVR Fluxgate Magnetometer (MAG) Level 2 One Minute Averages</ResourceName>
-      <ReleaseDate>2018-09-19T13:55:50Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Interplanetary magnetic field observations collected from magnetometer on DSCOVR satellite - 1-minute average of Level 1 data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/William.F.Rowland</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Douglas.Biesecker</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Association>
         <AssociationID>spase://SMWG/Observatory/DSCOVR</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://NOAA/NumericalData/DSCOVR/MAG/m1m</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/NCEI</RepositoryID>
       <AccessURL>
-        <URL>http://www.ngdc.noaa.gov/dscovr/portal/index.html#/download</URL>
-      </AccessURL>
+        <URL>https://www.ngdc.noaa.gov/dscovr/portal/index.html</URL>
+</AccessURL>
       <Format>NetCDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -35,10 +35,10 @@
       <TimeSpan>
         <StartDate>2016-03-27T00:00:00Z</StartDate>
         <RelativeStopDate>-P1D</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT0H1M0S</Cadence>
       <Exposure>PT1M</Exposure>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Caveats/>
     <Keyword>L1</Keyword>
@@ -54,18 +54,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>bx_gse (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-65536</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component.I</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>bt_interplanetary_magnetic_field_strength</Name>
       <ParameterKey>bt</ParameterKey>
@@ -75,15 +75,15 @@
       <UnitsConversion>1.0E-9&amp;gt;T</UnitsConversion>
       <RenderingHints>
         <AxisLabel>bt (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Total</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>bz_interplanetary_magnetic_field_strength_gse</Name>
       <ParameterKey>bz_gse</ParameterKey>
@@ -94,18 +94,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>bz_gse (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-65536</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component.K</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>by_interplanetary_magnetic_field_strength_gse</Name>
       <ParameterKey>by_gse</ParameterKey>
@@ -116,18 +116,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>by_gse (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-65536</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component.J</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>sample_count</Name>
       <ParameterKey>sample_count</ParameterKey>
@@ -136,13 +136,13 @@
       <Units>samples</Units>
       <RenderingHints>
         <AxisLabel>sample_count (samples)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>3000</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>time</Name>
       <ParameterKey>time</ParameterKey>
@@ -152,11 +152,11 @@
       <UnitsConversion>1.0E-3&amp;gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>time (ms)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>range</Name>
       <ParameterKey>range</ParameterKey>
@@ -166,8 +166,8 @@
       <ValidMax>7</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mode</Name>
       <ParameterKey>mode</ParameterKey>
@@ -177,8 +177,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>phi_gse</Name>
       <ParameterKey>phi_gse</ParameterKey>
@@ -188,18 +188,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>phi_gse (degrees)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>360</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>theta_gse</Name>
       <ParameterKey>theta_gse</ParameterKey>
@@ -209,18 +209,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>theta_gse (degrees)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90</ValidMin>
       <ValidMax>90</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>by_interplanetary_magnetic_field_strength_gsm</Name>
       <ParameterKey>by_gsm</ParameterKey>
@@ -231,18 +231,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>by_gsm (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-65536</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component.J</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>bx_interplanetary_magnetic_field_strength_gsm</Name>
       <ParameterKey>bx_gsm</ParameterKey>
@@ -253,18 +253,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>bx_gsm (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-65536</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component.I</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>theta_gsm</Name>
       <ParameterKey>theta_gsm</ParameterKey>
@@ -274,18 +274,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>theta_gsm (degrees)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90</ValidMin>
       <ValidMax>90</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>bz_interplanetary_magnetic_field_strength_gsm</Name>
       <ParameterKey>bz_gsm</ParameterKey>
@@ -296,18 +296,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>bz_gsm (nT)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-65536</ValidMin>
       <ValidMax>65536</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component.K</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>backfilled_data_flag</Name>
       <ParameterKey>backfill_flag</ParameterKey>
@@ -317,8 +317,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>phi_gsm</Name>
       <ParameterKey>phi_gsm</ParameterKey>
@@ -328,18 +328,18 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>phi_gsm (degrees)</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>360</ValidMax>
       <FillValue>-99999.0</FillValue>
       <Field>
         <Qualifier>Component</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>packet_time_older_than_threshold_flag</Name>
       <ParameterKey>old_packet_time_flag</ParameterKey>
@@ -349,8 +349,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>packet_time_in_future_flag</Name>
       <ParameterKey>future_packet_time_flag</ParameterKey>
@@ -360,8 +360,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>possible_magnetometer_saturation_flag</Name>
       <ParameterKey>possible_saturation_flag</ParameterKey>
@@ -371,8 +371,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>fill_flag</Name>
       <ParameterKey>fill_flag</ParameterKey>
@@ -382,8 +382,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>calibration_mode_flag</Name>
       <ParameterKey>calibration_mode_flag</ParameterKey>
@@ -393,8 +393,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>AOCS_non_science_mode_maneuver_or_safehold_flag</Name>
       <ParameterKey>maneuver_flag</ParameterKey>
@@ -404,8 +404,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>average_sample_count_below_threshold_flag</Name>
       <ParameterKey>low_sample_count_flag</ParameterKey>
@@ -415,8 +415,8 @@
       <ValidMax>1</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>overall_quality</Name>
       <ParameterKey>overall_quality</ParameterKey>
@@ -425,7 +425,7 @@
       <Units>n/a</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>
