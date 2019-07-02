@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://NOAA/NumericalData/GOES/15/Ephemeris/PT3M</ResourceID>
+      <ResourceID>spase://NOAA/NumericalData/GOES/9/Ephemeris/PT1M</ResourceID>
       <ResourceHeader>
-         <ResourceName>GOES 15 Ephemeris, Orbital Positions generated via Satellite Situation Center, SSC, Services, 3 min Data</ResourceName>
+         <ResourceName>GOES 9 Ephemeris, Orbital Positions generated via Satellite Situation Center, SSC, Services, 1 min Data</ResourceName>
          <ReleaseDate>2019-06-30T12:34:56.789Z</ReleaseDate>
-         <Description>GOES15 Ephemeris Data generated via Services provided by the Satellite Situation Center, SSC, which is an Operational Unit of the Space Physics Data Facility, SPDF.</Description>
+         <Description>GOES9 Ephemeris Data generated via Services provided by the Satellite Situation Center, SSC, which is an Operational Unit of the Space Physics Data Facility, SPDF.</Description>
          <Acknowledgement>Please acknowledge R. M. Candey, the NASA GSFC Satellite Situation Center, SSC, and the National Oceanic and Atmospheric Administration.</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -29,18 +29,18 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes15/orbit/</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes09/orbit/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes15/orbit/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes09/orbit/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES15_EPHEMERIS_SSC&amp;index=sp_phys</URL>
-            <ProductKey>GOES15_EPHEMERIS_SSC</ProductKey>
+            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES9_EPHEMERIS_SSC&amp;index=sp_phys</URL>
+            <ProductKey>GOES9_EPHEMERIS_SSC</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
@@ -48,16 +48,16 @@
          <Acknowledgement>Please acknowledge R. M. Candey, the NASA GSFC Satellite Situation Center, SSC, and the National Oceanic and Atmospheric Administration. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/GOES/15/Ephemeris</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/GOES/15/MAG</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/GOES/9/Ephemeris</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/GOES/9/MAG</InstrumentID>
       <MeasurementType>Ephemeris</MeasurementType>
       <MeasurementType>MagneticField</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>2010-03-21T00:00:00.000Z</StartDate>
-            <RelativeStopDate>P10D</RelativeStopDate>
+            <StartDate>1995-06-05T00:00:00.000Z</StartDate>
+            <StopDate>1995-06-05T00:00:00.000Z</StopDate>
          </TimeSpan>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
       </TemporalDescription>
       <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
       <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
@@ -67,7 +67,7 @@
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time, Beginning of Interval</Description>
          <Caveats>This Parameter exhibits an increasing Monotonic Progression</Caveats>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>ms</Units>
          <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
          <RenderingHints>
@@ -87,7 +87,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GEO_LAT</ParameterKey>
          <Description>Spacecraft Position, Latitude, Geographic, GEO, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -114,7 +114,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GEO_LON</ParameterKey>
          <Description>Spacecraft Position, Longitude, Geographic, GEO, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -141,7 +141,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GEO_LCT_T</ParameterKey>
          <Description>Spacecraft Position, Geographic, GEO, Local Time</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>h</Units>
          <UnitsConversion>3600&gt;s</UnitsConversion>
          <CoordinateSystem>
@@ -168,7 +168,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GM_LAT</ParameterKey>
          <Description>Spacecraft Position, Latitude, Geomagnetic, MAG, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -195,7 +195,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GM_LON</ParameterKey>
          <Description>Spacecraft Position, Longitude, Geomagnetic, MAG, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -222,7 +222,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GM_LCT_T</ParameterKey>
          <Description>Spacecraft Position, Geomagnetic, MAG, Local Time</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>h</Units>
          <UnitsConversion>3600&gt;s</UnitsConversion>
          <CoordinateSystem>
@@ -249,7 +249,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GSE_LAT</ParameterKey>
          <Description>Spacecraft Position, Latitude, Geocentric Solar Ecliptic, GSE, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -276,7 +276,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GSE_LON</ParameterKey>
          <Description>Spacecraft Position, Longitude, Geocentric Solar Ecliptic, GSE, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -303,7 +303,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GSE_LCT_T</ParameterKey>
          <Description>Spacecraft Position, Geocentric Solar Ecliptic, GSE, Local Time</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>h</Units>
          <UnitsConversion>3600&gt;s</UnitsConversion>
          <CoordinateSystem>
@@ -330,7 +330,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GSM_LAT</ParameterKey>
          <Description>Spacecraft Position, Latitude, Geocentric Solar Magnetospheric, GSM, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -357,7 +357,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>GSM_LON</ParameterKey>
          <Description>Spacecraft Position, Longitude, Geocentric Solar Magnetospheric, GSM, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -384,7 +384,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SM_LAT</ParameterKey>
          <Description>Spacecraft Position, Latitude, Solar Magnetospheric, SM, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -411,7 +411,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SM_LON</ParameterKey>
          <Description>Spacecraft Position, Longitude, Solar Magnetospheric, SM, Spherical Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -438,7 +438,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SM_LCT_T</ParameterKey>
          <Description>Spacecraft Position, Solar Magnetospheric, SM, Local Time</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>h</Units>
          <UnitsConversion>3600&gt;s</UnitsConversion>
          <CoordinateSystem>
@@ -465,7 +465,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>NorthBtrace_GEO_LAT</ParameterKey>
          <Description>Spacecraft Footpoint, Geographic, GEO, Spherical Coordinates, Latitude, Northern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -492,7 +492,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>NorthBtrace_GEO_LON</ParameterKey>
          <Description>Spacecraft Footpoint, Geographic, GEO, Spherical Coordinates, Longitude, Northern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -519,7 +519,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>NorthBtrace_GEO_ARCLEN</ParameterKey>
          <Description>Spacecraft Position to Footpoint, Arc Length, Geographic, GEO, Coordinates, Northern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -547,7 +547,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SouthBtrace_GEO_LAT</ParameterKey>
          <Description>Spacecraft Footpoint, Geographic, GEO, Spherical Coordinates, Latitude, Southern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -574,7 +574,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SouthBtrace_GEO_LON</ParameterKey>
          <Description>Spacecraft Footpoint, Geographic, GEO, Spherical Coordinates, Longitude, Southern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -601,7 +601,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SouthBtrace_GEO_ARCLEN</ParameterKey>
          <Description>Spacecraft Position to Footpoint, Arc Length, Geographic, GEO, Coordinates, Southern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -629,7 +629,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>NorthBtrace_GM_LAT</ParameterKey>
          <Description>Spacecraft Footpoint, Geomagnetic, MAG, Spherical Coordinates, Latitude, Northern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -656,7 +656,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>NorthBtrace_GM_LON</ParameterKey>
          <Description>Spacecraft Footpoint, Geomagnetic, MAG, Spherical Coordinates, Longitude, Northern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -683,7 +683,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>NorthBtrace_GM_ARCLEN</ParameterKey>
          <Description>Spacecraft Position to Footpoint, Arc Length, Geomagnetic, MAG, Coordinates, Northern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -711,7 +711,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SouthBtrace_GM_LAT</ParameterKey>
          <Description>Spacecraft Footpoint, Geomagnetic, MAG, Spherical Coordinates, Latitude, Southern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -738,7 +738,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SouthBtrace_GM_LON</ParameterKey>
          <Description>Spacecraft Footpoint, Geomagnetic, MAG, Spherical Coordinates, Longitude, Southern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -765,7 +765,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>SouthBtrace_GM_ARCLEN</ParameterKey>
          <Description>Spacecraft Position to Footpoint, Arc Length, Geomagnetic, MAG, Coordinates, Southern Hemisphere</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -793,7 +793,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>RADIUS</ParameterKey>
          <Description>Spacecraft Position, Geocentric Radial Distance</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <RenderingHints>
@@ -817,7 +817,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>MAG_STRTH</ParameterKey>
          <Description>Total Magnetic Field Magnitude</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
          <RenderingHints>
@@ -841,7 +841,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>DNEUTS</ParameterKey>
          <Description>Spacecraft Position, Neutral Sheet Distance, Tsyganenko 1995 Model</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <RenderingHints>
@@ -865,7 +865,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>BOW_SHOCK</ParameterKey>
          <Description>Spacecraft Position, Bow Shock Offset Distance, Petrinel 1993 Model</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <RenderingHints>
@@ -889,7 +889,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>MAG_PAUSE</ParameterKey>
          <Description>Spacecraft Position, Bow Shock Offset Distance, Roelof and Sibeck 1993 Model</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <RenderingHints>
@@ -913,7 +913,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>L_VALUE</ParameterKey>
          <Description>Spacecraft Position, Dipole L Value</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>L Value</AxisLabel>
@@ -935,7 +935,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>INVAR_LAT</ParameterKey>
          <Description>Spacecraft Position, Invariant Latitude</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
@@ -962,7 +962,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>MAG_X</ParameterKey>
          <Description>Magnetic Field X Component, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
          <CoordinateSystem>
@@ -990,7 +990,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>MAG_Y</ParameterKey>
          <Description>Magnetic Field Y Component, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
          <CoordinateSystem>
@@ -1018,7 +1018,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>MAG_Z</ParameterKey>
          <Description>Magnetic Field Z Component, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
          <CoordinateSystem>
@@ -1046,7 +1046,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>XYZ_GEO</ParameterKey>
          <Description>Spacecraft Position Vector, Geographic, GEO, Cartesian Coordinates, Time Series Display</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -1097,7 +1097,7 @@
          <ParameterKey>XYZ_GEOO</ParameterKey>
          <Description>Spacecraft Position Vector, Geographic, GEO, Cartesian Coordinates, Orbital Display</Description>
          <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: XYZ_GEO.</Caveats>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -1146,7 +1146,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>XYZ_GM</ParameterKey>
          <Description>Spacecraft Position Vector, Geomagnetic, MAG, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -1196,7 +1196,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>XYZ_GSE</ParameterKey>
          <Description>Spacecraft Position Vector, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -1246,7 +1246,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>XYZ_GSM</ParameterKey>
          <Description>Spacecraft Position Vector, Geocentric Solar Magnetic, GSM, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
@@ -1296,7 +1296,7 @@
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>XYZ_SM</ParameterKey>
          <Description>Spacecraft Position Vector, Solar Magnetic, SM, Cartesian Coordinates</Description>
-         <Cadence>PT3M</Cadence>
+         <Cadence>PT1M</Cadence>
          <Units>Re</Units>
          <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
          <CoordinateSystem>
