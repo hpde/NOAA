@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>GOES 14 Magnetospheric Electron Detector (MAGED) data with average flux of 40 keV at 5 min Time Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>GOES 14 MAGED 19ME15 data</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The GOES 14 Magnetospheric Electron Detector (MAGED) are essentially the same as the Energetic Particle Sensor (EPS) on GOES 8-12. For more information, please see Onsager et al. 1996, Operational uses of the GOES energetic particle detectors, in GOES 8 and Beyond, Proc. SPIE, Vol. 2812, edited by E. R. Washwell, pp. 281-290, Bellingham, WA. These data file contain mainly information on the electron count rates and fluxes from 5 energy channels from 40 to 475 keV for all 9 telescopes. Data files contain long descriptive header.</Description>
       <Acknowledgement>NASA Office of Space Science Applications (United States), NOAA National Environmental Satellite Service (United States), Terry G. Onsager</Acknowledgement>
       <Contact>
@@ -33,7 +33,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes14/eps-maged/19me15_5min/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes14/eps-maged/19me15_5min/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

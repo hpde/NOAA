@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/DSCOVR/Ephemeris/Attitude/Preliminary/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>DSCOVR 3-Axis Stabilized Attitude (Ephemeris) Preliminary Data</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>DSCOVR 3-Axis Stabilized Preliminary Attitude Data File. Convention: Intrinsic Rotations applied in Yaw, Pitch, Roll Order. Time Resolution Varies. 5-Point Median Filter Applied to the DCM Matrix.</Description>
       <Acknowledgement>A. Szabo</Acknowledgement>
       <Contact>
@@ -34,7 +34,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/dscovr/orbit/pre_at/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/dscovr/orbit/pre_at/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
