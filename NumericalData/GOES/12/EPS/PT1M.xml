@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>GOES 12 Energetic Particle Sensor Data at 1 min Time Resolution</ResourceName>
       <AlternateName>GOES 12 EPS data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-10-11T16:15:00Z</ReleaseDate>
       <Description>The energetic particle sensor data consists of electron and proton data. The electrons consists of 3 energy flux channels with energies greater than 0.6 MeV. The proton fluxes consist of 7 energy channels from 0.6 to 500 MeV.</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories, Terry G. Onsager</Acknowledgement>
       <Contact>
@@ -36,7 +36,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Direct access to the GOES 12 SEM data</Name>
-        <URL>https://satdat.ngdc.noaa.gov/sem/goes/data/new_avg/</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/goes/data/avg/</URL>
         <Description>Direct link to the GOES 12 EPS data in ASCII format as well as the energetic particle data from other GOES spacecraft. The data are sorted by year, month, spacecraft. The file names indicates the spacecraft number, data type, and time range. For example, g08_eps_1m_19950801_19950131.csv indicates the GOES 8 spacecraft EPS data from 1995-08-01 to 1995-01-31.</Description>
 </AccessURL>
       <Format>Text</Format>
