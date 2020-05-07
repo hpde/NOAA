@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/GOES/15/EPS/MAGPD/19MP1/PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 15 Magnetospheric Proton Detector (MAGPD) data with energy from 80 to 110 keV at 16 s Time Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>GOES 15 MAGED 19MP1 data</AlternateName>
-      <ReleaseDate>2019-10-11T16:15:00Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>The GOES 15 Magnetospheric Proton Detector (MAGPD) are essentially the same as the Energetic Particle Sensor (EPS) on GOES 8-12. For more information, please see Onsager et al. 1996, Operational uses of the GOES energetic particle detectors, in GOES 8 and Beyond, Proc. SPIE, Vol. 2812, edited by E. R. Washwell, pp. 281-290, Bellingham, WA. These data file contain mainly information on the proton count rates and fluxes from 80 to 110 keV. Data files contain long descriptive header.</Description>
       <Acknowledgement>NASA Office of Space Science Applications (United States), NOAA National Environmental Satellite Service (United States), Terry G. Onsager</Acknowledgement>
       <Contact>
@@ -19,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://www.nasa.gov/pdf/112855main_GOESNOPWeb1.pdf</URL>
         <Description>Information about the magnetometers onboard GOES 15</Description>
         <Language>en</Language>
       </InformationURL>

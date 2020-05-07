@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/GOES/13/MAG/PT0.512S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 13 Triaxial Fluxgate Magnetometer data at 512 ms Time Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>GOES 13 Magnetic Field data</AlternateName>
-      <ReleaseDate>2019-10-11T16:15:00Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>The triaxial fluxgate magnetometer, located at a few tens of meters away from the spacecraft, was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly parallel to the rotation axis of the Earth, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of &#xB1;1000 nT (without saturation) and a resolution of 0.1 nT. Data files contain long descriptive header.</Description>
       <Acknowledgement>NASA Office of Space Science Applications (United States), NOAA National Environmental Satellite Service (United States), Howard J. Singer</Acknowledgement>
       <Contact>
@@ -19,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://www.nasa.gov/pdf/112855main_GOESNOPWeb1.pdf</URL>
         <Description>Information about the magnetometers onboard GOES 13</Description>
         <Language>en</Language>
       </InformationURL>

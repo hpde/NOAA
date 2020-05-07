@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/GOES/10/MAG/PT0.512S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 10 high resolution magnetometer data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>GOES 10 magnetic field data at 0.512 s time resolution. The vector magnetic field is given in the spacecraft Earth-referenced coordinate system:  Hp, He, Hn, and Ht, where  Hp is perpendicular to the satellite orbital plane, or parallel to spin axis of the Earth in the case of a 0&#xB0; inclination orbit, He is perpendicular to Hp and directed earthward, Hn is perpendicular to both Hp and He and directed eastward, and Ht is the total field.
 
 This data product also provides GOES 10 satellite positions and velocities derived from SSCWEB GEI ephemeris, interpolated to 1 min time resolution.
@@ -43,20 +43,22 @@ Approximate coefficients are:
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
-      <InformationURL>
-        <Name>README document</Name>
-        <URL>http://themis.ssl.berkeley.edu/data/goes/GOES8-12_readme_draft090108.doc</URL>
-        <Description>Notes on The GOES 8 to GOES 12 magnetometer data by Howard J. Singer.</Description>
-      </InformationURL>
       <PriorID>spase://VMO/NumericalData/GOES10/MAG/PT0.512S</PriorID>
       <PriorID>spase://VMO/NumericalData/GOES/10/MAG/PT0.512S</PriorID>
       <PriorID>spase://VSPO/NumericalData/GOES/10/MAG/PT0.512S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/UCB/THEMIS</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>GOES 10 Level-2 0.512 s Magnetic Field Data</Name>
-        <URL>http://themis.ssl.berkeley.edu/data/goes/mag/g10/l2/</URL>
+        <Name>FTPS access to files at SPDF</Name>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes10/mag_l2/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>HTTPS access to files at SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes10/mag_l2/</URL>
+        <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
