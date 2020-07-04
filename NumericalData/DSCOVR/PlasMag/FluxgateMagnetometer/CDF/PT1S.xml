@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/DSCOVR/PlasMag/FluxgateMagnetometer/CDF/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>DSCOVR Fluxgate Magnetometer (MAG) Definitive Magnetic Field, 1 second data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>DSCOVR Fluxgate Magnetometer (MAG) Definitive Magnetic Field, 1 s Data</Description>
       <Acknowledgement>A. Koval</Acknowledgement>
       <Contact>
@@ -33,12 +33,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/dscovr/h0/mag/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/dscovr/h0/mag/</URL>
         <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

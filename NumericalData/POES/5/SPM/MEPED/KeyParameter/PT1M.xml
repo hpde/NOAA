@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/POES/5/SPM/MEPED/KeyParameter/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 05 Solar Proton Monitor (SPM) Medium Energy Proton and Electron Detector (MEPED) Re-processed Particle Count Rates, Fluxes, and Model Fields, 1 min Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>TIROS/NOAA SEM MEPED Reprocessed Data Archive.
                       
                    This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models: 1) International Geomagnetic Reference Field, IGRF, 2) Tsyganenko 1989, T89, 3) Tsyganenko 1996, T96, and 4) Tsyganenko 2001, T01. The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
@@ -47,12 +47,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/noaa/noaa05/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/noaa/noaa05/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

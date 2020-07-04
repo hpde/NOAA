@@ -46,7 +46,7 @@
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/dscovr/h1/faraday_cup/</URL>
         <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

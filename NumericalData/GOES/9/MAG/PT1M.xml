@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/GOES/9/MAG/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 9 Space Environment Monitor (SEM) Triaxial Fluxgate Magnetometer (FGM), Magnetic Field and Ephemeris, Multiple Coordinate Systems, 1.0 min Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The NOAA Geostationary Operational Environment Satellite (GOES) key parameters.  This data is a subset of the data available from the GOES Space Environment Monitor (SEM) instruments.  It contains vector magnetic field in three coordinate systems:
 
 * Spacecraft P,E,N
@@ -37,11 +37,11 @@ Spacecraft magnetic field is defined as:
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes09/mag_k0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes09/mag_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

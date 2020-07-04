@@ -7,7 +7,7 @@
       <ResourceName>GOES 8 Energetic Particle Monitor Data at 5 min Time Resolution</ResourceName>
       <AlternateName>GOES 8 EPS data</AlternateName>
       <AlternateName>GOES 8 EP8 data</AlternateName>
-      <ReleaseDate>2019-10-11T16:15:00Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The energetic particle sensor (now called EP8 instead of EPS or EPM) data consists of electron, proton, and alpha particle data. The electrons consists of 3 energy flux channels with energies greater than 0.6 MeV. The protons consist of 7 energy channels from 0.6 to 500 MeV and the alpha particles consist of 6 energy channels from 4 to 500 MeV.</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories, Terry G. Onsager</Acknowledgement>
       <Contact>
@@ -54,11 +54,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes08/ep8_k0/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes08/ep8_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

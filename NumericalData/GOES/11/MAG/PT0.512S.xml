@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/GOES/11/MAG/PT0.512S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 11 high resolution magnetometer data</ResourceName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>GOES 11 magnetic field data at 0.512 s time resolution. The vector magnetic field is given in the spacecraft Earth-referenced coordinate system:  Hp, He, Hn, and Ht, where  Hp is perpendicular to the satellite orbital plane, or parallel to spin axis of the Earth in the case of a 0&#xB0; inclination orbit, He is perpendicular to Hp and directed earthward, Hn is perpendicular to both Hp and He and directed eastward, and Ht is the total field.
 
 This data product also provides GOES 11 satellite positions and velocities derived from SSCWEB GEI ephemeris, interpolated to 1 min time resolution.
@@ -52,11 +52,11 @@ Approximate coefficients are:
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes11/mag_l2/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes11/mag_l2/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

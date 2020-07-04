@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>GOES 11 Magnetic Field Sensor data at 1 min Time Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>GOES 11 MFS data</AlternateName>
-      <ReleaseDate>2019-10-11T16:15:00Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The magnetic field sensor, located at a few meters away from the spacecraft was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly parallel to the rotation axis of the Earth, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of &#xB1;1000 nT (without saturation) and a resolution of 0.1 nT. Data files contain long descriptive header.</Description>
       <Acknowledgement>NASA Office of Space Science Applications (United States), NOAA National Environmental Satellite Service (United States), Howard J. Singer</Acknowledgement>
       <Contact>
@@ -30,11 +30,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes11/mag_k0/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes11/mag_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

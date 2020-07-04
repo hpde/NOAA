@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/GOES/7/EPM/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 7 EPS, 5-min KP Electron, Proton Fluxes</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>GOES 7 Energetic Particle Sensor, Key Parameters, 5-min fluxes of electrons &gt; 2 MeV and of 0.6-4.2 MeV protons</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
@@ -19,11 +19,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes07/eps_k0/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes07/eps_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

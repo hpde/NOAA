@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/GOES/7/MAG/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 7 MAG 1-Min Key Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>GOES 7 Magnetometer 1-Min Key Parameters, in Local S/C Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.D.Zwickl</PersonID>
@@ -19,11 +19,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes07/mag_k0/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes07/mag_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

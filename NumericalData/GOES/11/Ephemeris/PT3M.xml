@@ -5,7 +5,7 @@
       <ResourceID>spase://NOAA/NumericalData/GOES/11/Ephemeris/PT3M</ResourceID>
       <ResourceHeader>
          <ResourceName>GOES 11 Ephemeris, Orbital Positions generated via Satellite Situation Center, SSC, Services, 3 min Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>GOES11 Ephemeris Data generated via Services provided by the Satellite Situation Center, SSC, which is an Operational Unit of the Space Physics Data Facility, SPDF.</Description>
          <Acknowledgement>Please acknowledge R. M. Candey, the NASA GSFC Satellite Situation Center, SSC, and the National Oceanic and Atmospheric Administration.</Acknowledgement>
          <Contact>
@@ -28,12 +28,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes11/orbit/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes11/orbit/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>
