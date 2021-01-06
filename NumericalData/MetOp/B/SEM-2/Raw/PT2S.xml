@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Meteorological Operational B (MetOp B) Space Environment Monitor 2 (SEM-2) Raw Full Resolution NetCDF Data at 2 s Resolution</ResourceName>
       <AlternateName>MetOp-B SEM data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2021-01-05T21:27:56Z</ReleaseDate>
       <Description>The MetOp-B SEM data consists of geographic location information, counts/s from the Medium Energy Proton/Electron Detector (MEPED), and total energies from the Total Energy Detector (TED).</Description>
       <Acknowledgement>European Space Agency; EUMETSAT (European Organisation for the Exploitation of Meteorological Satellites)</Acknowledgement>
       <Contact>
@@ -19,7 +19,7 @@
 </Contact>
       <InformationURL>
         <Name>European Organisation for the Exploitation of Meteorological Satellites SEM page</Name>
-        <URL>https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/MetopDesign/SEM/index.html</URL>
+        <URL>https://www.eumetsat.int/sem-2</URL>
         <Description>Information about the Space Environment Monitor-2 (SEM-2) experiment on the MetOp-B mission.</Description>
 </InformationURL>
       <InformationURL>
