@@ -5,7 +5,7 @@
     <ResourceID>spase://NOAA/NumericalData/POES/15/SEM-2/CDF/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 15 POES Space Environment Monitor-2 (SEM-2) 2-second Particle Precipitation Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>POES-SEM2&gt;POES-Space Environment Monitor 2 POES N19 Data: POES/MetOp: Particle Precipitation Data, these Data have known Contamination Problems, Please consult the Data Provider, Rob Redmon, at rob.redmon@noaa.gov, for Usage Recommendations</Description>
       <Acknowledgement>NGDC, SWPC</Acknowledgement>
       <Contact>
@@ -52,7 +52,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=NOAA15_POES-SEM2_FLUXES-2SEC&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=NOAA15_POES-SEM2_FLUXES-2SEC&amp;index=sp_phys</URL>
         <ProductKey>NOAA15_POES-SEM2_FLUXES-2SEC</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
 </AccessURL>

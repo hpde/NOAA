@@ -5,7 +5,7 @@
       <ResourceID>spase://NOAA/NumericalData/GOES/17/Ephemeris/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>GOES 17 Ephemeris, Orbital Positions generated via Satellite Situation Center, SSC, Services, 1 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>GOES17 Ephemeris Data generated via Services provided by the Satellite Situation Center, SSC, which is an Operational Unit of the Space Physics Data Facility, SPDF.</Description>
          <Acknowledgement>Please acknowledge R. M. Candey, the NASA GSFC Satellite Situation Center, SSC, and the National Oceanic and Atmospheric Administration.</Acknowledgement>
          <Contact>
@@ -39,7 +39,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES17_EPHEMERIS_SSC&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES17_EPHEMERIS_SSC&amp;index=sp_phys</URL>
             <ProductKey>GOES17_EPHEMERIS_SSC</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
