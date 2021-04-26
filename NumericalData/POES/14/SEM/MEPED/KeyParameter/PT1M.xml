@@ -5,12 +5,16 @@
     <ResourceID>spase://NOAA/NumericalData/POES/14/SEM/MEPED/KeyParameter/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 14 Space Environment Monitor-1 (SEM-1) Medium Energy Proton and Electron Detector (MEPED) Re-processed Particle Count Rates, Fluxes, and Model Fields, 1 min Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
-      <Description>TIROS/NOAA SEM MEPED Reprocessed Data Archive.
-                      
-                   This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models: 1) International Geomagnetic Reference Field, IGRF, 2) Tsyganenko 1989, T89, 3) Tsyganenko 1996, T96, and 4) Tsyganenko 2001, T01. The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
-                      
-                   Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.</Description>
+      <ReleaseDate>2021-04-26T17:14:50Z</ReleaseDate>
+      <Description>TIROS/NOAA SEM MEPED Reprocessed Data Archive.                      
+      This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models:
+ 
+*  International Geomagnetic Reference Field, IGRF, 
+*  Tsyganenko 1989, T89, 
+*  Tsyganenko 1996, T96, and 
+*  Tsyganenko 2001, T01.
+
+The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.  Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.</Description>
       <Acknowledgement>S.F. Fung, Please acknowledge NOAA/NGDC for providing the raw Data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
