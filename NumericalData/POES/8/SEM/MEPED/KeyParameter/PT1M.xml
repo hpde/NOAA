@@ -13,8 +13,7 @@
      * 2) Tsyganenko 1989, T89, 
      * 3) Tsyganenko 1996, T96, and 
      * 4) Tsyganenko 2001, T01.
-
-      The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
+     The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Input Parameters and Geomagnetic Indices obtained from the OMNI-2 Data Set. Detector Counts, Omnidirectional and Perpendicular Electron and Proton Fluxes are archived.
       Processing was done by: S.F. Fung, L.C. Tan, and X. Shao, Space Physics Data Facility, Goddard Space Flight Center, NASA, Greenbelt, MD 20771, USA, e-mail: Shing.F.Fung@nasa.gov.</Description>
       <Acknowledgement>S.F. Fung, Please acknowledge NOAA/NGDC for providing the raw Data.</Acknowledgement>
       <Contact>
