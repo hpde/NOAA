@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/POES/12/SEM/MEPED/KeyParameter/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 12 Space Environment Monitor-1 (SEM-1) Medium Energy Proton and Electron Detector (MEPED) Re-processed Particle Count Rates, Fluxes, and Model Fields, 1 min Data</ResourceName>
-      <ReleaseDate>2021-04-26T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T17:52:57Z</ReleaseDate>
       <Description>TIROS/NOAA SEM MEPED Reprocessed Data Archive.                      
       This is the Reprocessed Version of the Medium Energy Proton Electron Detector, MEPED, Data Archive from the TIROS/NOAA Spacecraft. The raw Data from the NOAA Archive have been processed to 1 min Resolution. Magnetic Field Parameters including Geocentric Solar Magnetospheric, GSM, Bx, By, Bz, B/Bmin, and L Shell Values are derived by using four Magnetic Field Models:
  
@@ -68,6 +68,20 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>S.F. Fung, Please acknowledge NOAA/NGDC for providing the raw Data. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>NOAA12_MEPED1MIN_SEM</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>S.F. Fung, Please acknowledge NOAA/NGDC for providing the raw Data. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -176,7 +190,7 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       <ParameterKey>latitude</ParameterKey>
       <Description>Spacecraft Position, Latitude, Geographic, GEO, Spherical Coordinates</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -204,7 +218,7 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       <ParameterKey>longitude</ParameterKey>
       <Description>Spacecraft Position, Longitude, Geographic, GEO, Spherical Coordinates</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -232,7 +246,7 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       <ParameterKey>sm_mlt</ParameterKey>
       <Description>Spacecraft Position, Magnetic Local Time, Solar Magnetospheric, SM, Spherical Coordinates</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -255,12 +269,12 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Pitch Angle for MEPED Proton and Electron 0&#176; Telescopes</Name>
+      <Name>Pitch Angle for MEPED Proton and Electron 0° Telescopes</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>pa0</ParameterKey>
-      <Description>Pitch Angle for MEPED Proton and Electron 0&#176; Telescopes</Description>
+      <Description>Pitch Angle for MEPED Proton and Electron 0° Telescopes</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -283,12 +297,12 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Pitch Angle for MEPED Proton 81&#176; Telescope</Name>
+      <Name>Pitch Angle for MEPED Proton 81° Telescope</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>pa81</ParameterKey>
-      <Description>Pitch Angle for MEPED Proton 81&#176; Telescope</Description>
+      <Description>Pitch Angle for MEPED Proton 81° Telescope</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -309,12 +323,12 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Pitch Angle for MEPED Electron 83&#176; Telescope</Name>
+      <Name>Pitch Angle for MEPED Electron 83° Telescope</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>pa83</ParameterKey>
-      <Description>Pitch Angle for MEPED Electron 83&#176; Telescope</Description>
+      <Description>Pitch Angle for MEPED Electron 83° Telescope</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -353,10 +367,10 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       </Support>
     </Parameter>
     <Parameter>
-      <Name>MEPED Count Rates 0&#176; Telescopes</Name>
+      <Name>MEPED Count Rates 0° Telescopes</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>counts_0dg</ParameterKey>
-      <Description>MEPED Count Rates 0&#176; Telescopes, five Proton and three Electron Energy Bands, counts_0dg</Description>
+      <Description>MEPED Count Rates 0° Telescopes, five Proton and three Electron Energy Bands, counts_0dg</Description>
       <Cadence>PT1M</Cadence>
       <Units>s^-1</Units>
       <RenderingHints>
@@ -412,10 +426,10 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>MEPED Count Rates, 81&#176; and 83&#176; Telescopes</Name>
+      <Name>MEPED Count Rates, 81° and 83° Telescopes</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>counts_90dg</ParameterKey>
-      <Description>MEPED Count Rates, 81&#176; and 83&#176; Telescopes, five Proton and three Electron Energy Bands</Description>
+      <Description>MEPED Count Rates, 81° and 83° Telescopes, five Proton and three Electron Energy Bands</Description>
       <Cadence>PT1M</Cadence>
       <Units>s^-1</Units>
       <RenderingHints>
@@ -596,7 +610,7 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       <Name>MEPED calculated Omnidirectional Proton Flux</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>Jomni_p</ParameterKey>
-      <Description>MEPED calculated Omnidirectional Proton Flux, five Energy Bands from the 0&#176; Telescope, the 81&#176; Telescope, and three Omnidirectional Telescopes</Description>
+      <Description>MEPED calculated Omnidirectional Proton Flux, five Energy Bands from the 0° Telescope, the 81° Telescope, and three Omnidirectional Telescopes</Description>
       <Cadence>PT1M</Cadence>
       <Units>(cm^2 s sr)^-1</Units>
       <UnitsConversion>1.0e4&gt;(m^2 s sr)</UnitsConversion>
@@ -654,7 +668,7 @@ The T89, T96, and T01 Magnetic Field Models have been driven with Solar Wind Inp
       <Name>MEPED calculated Omnidirectional Electron Flux</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>Jomni_e</ParameterKey>
-      <Description>MEPED calculated Omnidirectional Electron Flux, three Energy Bands from the 0&#176; Telescope and the 83&#176; Telescopes</Description>
+      <Description>MEPED calculated Omnidirectional Electron Flux, three Energy Bands from the 0° Telescope and the 83° Telescopes</Description>
       <Cadence>PT1M</Cadence>
       <Units>(cm^2 s sr q^-1)^-1</Units>
       <UnitsConversion>1.0e4&gt;(m^2 s sr q^-1)^-1</UnitsConversion>

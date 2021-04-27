@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
@@ -6,30 +6,30 @@
     <ResourceHeader>
       <ResourceName>GOES 11 Energetic Particle Sensor Data at 5 min Time Resolution</ResourceName>
       <AlternateName>GOES 11 EPS data</AlternateName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T17:52:57Z</ReleaseDate>
       <Description>The energetic particle sensor data consists of electron, proton, and alpha particle data. The electrons consists of 3 energy flux channels with energies greater than 0.6 MeV. The protons consist of 7 energy channels from 0.6 to 500 MeV and the alpha particles consist of 6 energy channels from 4 to 500 MeV.</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories, Terry G. Onsager</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>GOES 11 Environment Monitor</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-022A-03</URL>
         <Description>Introduction to the GOES 11 Space Environment Monitor.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>GOES 11 Energetic Particle Sensor Data File Information</Name>
         <URL>https://satdat.ngdc.noaa.gov/sem/goes/goes_docs/avg/readme.txt</URL>
         <Description>Additional GOES EPS information.</Description>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VMO/NumericalData/GOES/11/EPS/PT5M</PriorID>
       <PriorID>spase://VSPO/NumericalData/GOES/11/EPS/PT5M</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/SEC</RepositoryID>
       <Availability>Online</Availability>
@@ -38,11 +38,11 @@
         <Name>Direct access to the GOES 11 SEM data</Name>
         <URL>https://satdat.ngdc.noaa.gov/sem/goes/data/avg/</URL>
         <Description>Direct link to the GOES 11 EPS data in ASCII format as well as the energetic particle data from other GOES spacecraft. The data are sorted by year, month, spacecraft. The file names indicates the spacecraft number, data type, and time range. For example, g08_eps_1m_19950801_19950131.csv indicates the GOES 8 spacecraft EPS data from 1995-08-01 to 1995-01-31.</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>NOAA Environmental Research Laboratories, Terry G. Onsager</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -50,20 +50,34 @@
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/goes/goes10/ep8_k0/</URL>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes10/ep8_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GOES11_K0_EP8&amp;index=sp_phys</URL>
         <ProductKey>GOES11_K0_EP8</ProductKey>
         <Description>GOES11_K0_EP8</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>GOES11_K0_EP8</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>NOAA GOES</ProviderResourceName>
     <ProviderProcessingLevel>Level-0</ProviderProcessingLevel>
@@ -74,9 +88,9 @@
         <StartDate>2000-07-01T00:00:00</StartDate>
         <StopDate>2011-02-28T23:59:59</StopDate>
         <Note>Time format in data files is year-month-day hour:minute:seconds.</Note>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT5M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <Keyword>5 min</Keyword>
     <Keyword>geosynchronous</Keyword>
     <Keyword>GOES</Keyword>
@@ -88,8 +102,8 @@
       <Description>Time format in data files is year-month-day hour:minute:seconds.</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Flux of electrons with energy &gt;0.6 MeV.</Name>
       <ParameterKey>e1_flux_ic</ParameterKey>
@@ -101,8 +115,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of electrons with energy &gt;2 MeV.</Name>
       <ParameterKey>e2_flux_ic</ParameterKey>
@@ -114,8 +128,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of electrons with energy &gt;4 MeV.</Name>
       <ParameterKey>e3_flux_ic</ParameterKey>
@@ -127,8 +141,8 @@
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 0.6 to 4.0 MeV.</Name>
       <ParameterKey>p1_flux</ParameterKey>
@@ -144,9 +158,9 @@
           <Low>0.6</Low>
           <High>4.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 4 to 9 MeV.</Name>
       <ParameterKey>p2_flux</ParameterKey>
@@ -162,9 +176,9 @@
           <Low>4.0</Low>
           <High>9.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 9 to 15 MeV.</Name>
       <ParameterKey>p3_flux</ParameterKey>
@@ -180,9 +194,9 @@
           <Low>9.0</Low>
           <High>15.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 15 to 44 MeV.</Name>
       <ParameterKey>p4_flux</ParameterKey>
@@ -198,9 +212,9 @@
           <Low>15.0</Low>
           <High>44.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 40 to 80 MeV.</Name>
       <ParameterKey>p5_flux</ParameterKey>
@@ -216,9 +230,9 @@
           <Low>40.0</Low>
           <High>80.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 80 to 165 MeV.</Name>
       <ParameterKey>p6_flux</ParameterKey>
@@ -234,9 +248,9 @@
           <Low>80.0</Low>
           <High>165.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 165 to 500 MeV.</Name>
       <ParameterKey>p7_flux</ParameterKey>
@@ -252,9 +266,9 @@
           <Low>165.0</Low>
           <High>500.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of Alpha Particles with energies from 4 to 10 MeV.</Name>
       <ParameterKey>a1_flux</ParameterKey>
@@ -270,9 +284,9 @@
           <Low>4</Low>
           <High>10.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of Alpha Particles with energies from 10 to 21 MeV.</Name>
       <ParameterKey>a2_flux</ParameterKey>
@@ -288,9 +302,9 @@
           <Low>10</Low>
           <High>21.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of Alpha Particles with energies from 21 to 60 MeV.</Name>
       <ParameterKey>a3_flux</ParameterKey>
@@ -306,9 +320,9 @@
           <Low>21.0</Low>
           <High>60.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of Alpha Particles with energies from 60 to 150 MeV.</Name>
       <ParameterKey>a4_flux</ParameterKey>
@@ -324,9 +338,9 @@
           <Low>60.0</Low>
           <High>150.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of Alpha Particles with energies from 150 to 250 MeV.</Name>
       <ParameterKey>a5_flux</ParameterKey>
@@ -342,9 +356,9 @@
           <Low>150.0</Low>
           <High>250.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of Alpha Particles with energies from 300 to 500 MeV.</Name>
       <ParameterKey>a6_flux</ParameterKey>
@@ -360,9 +374,9 @@
           <Low>300.0</Low>
           <High>500.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 0.6 to 4.0 MeV.</Name>
       <ParameterKey>p1_flux_c</ParameterKey>
@@ -378,9 +392,9 @@
           <Low>0.6</Low>
           <High>4.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 4 to 9 MeV.</Name>
       <ParameterKey>p2_flux_c</ParameterKey>
@@ -396,9 +410,9 @@
           <Low>4.0</Low>
           <High>9.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 9 to 15 MeV.</Name>
       <ParameterKey>p3_flux_c</ParameterKey>
@@ -414,9 +428,9 @@
           <Low>9.0</Low>
           <High>15.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 15 to 44 MeV.</Name>
       <ParameterKey>p4_flux_c</ParameterKey>
@@ -432,9 +446,9 @@
           <Low>15.0</Low>
           <High>44.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 40 to 80 MeV.</Name>
       <ParameterKey>p5_flux_c</ParameterKey>
@@ -450,9 +464,9 @@
           <Low>40.0</Low>
           <High>80.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 80 to 165 MeV.</Name>
       <ParameterKey>p6_flux_c</ParameterKey>
@@ -468,9 +482,9 @@
           <Low>80.0</Low>
           <High>165.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Flux of protons with energies from 165 to 500 MeV.</Name>
       <ParameterKey>p7_flux_c</ParameterKey>
@@ -486,9 +500,9 @@
           <Low>165.0</Low>
           <High>500.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;1 MeV.</Name>
       <ParameterKey>p1_flux_ic</ParameterKey>
@@ -500,8 +514,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;5 MeV.</Name>
       <ParameterKey>p2_flux_ic</ParameterKey>
@@ -513,8 +527,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;10 MeV.</Name>
       <ParameterKey>p3_flux_ic</ParameterKey>
@@ -526,8 +540,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;30 MeV.</Name>
       <ParameterKey>p4_flux_ic</ParameterKey>
@@ -539,8 +553,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;50 MeV.</Name>
       <ParameterKey>p5_flux_ic</ParameterKey>
@@ -552,8 +566,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;60 MeV.</Name>
       <ParameterKey>p6_flux_ic</ParameterKey>
@@ -565,8 +579,8 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral flux of protons with energies &gt;100 MeV.</Name>
       <ParameterKey>p7_flux_ic</ParameterKey>
@@ -578,7 +592,7 @@
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
-</NumericalData>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NOAA/NumericalData/GOES/10/MAG/PT0.512S</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 10 high resolution magnetometer data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
-      <Description>GOES 10 magnetic field data at 0.512 s time resolution. The vector magnetic field is given in the spacecraft Earth-referenced coordinate system:  Hp, He, Hn, and Ht, where  Hp is perpendicular to the satellite orbital plane, or parallel to spin axis of the Earth in the case of a 0&#xB0; inclination orbit, He is perpendicular to Hp and directed earthward, Hn is perpendicular to both Hp and He and directed eastward, and Ht is the total field.
+      <ReleaseDate>2021-04-27T17:52:57Z</ReleaseDate>
+      <Description>GOES 10 magnetic field data at 0.512 s time resolution. The vector magnetic field is given in the spacecraft Earth-referenced coordinate system:  Hp, He, Hn, and Ht, where  Hp is perpendicular to the satellite orbital plane, or parallel to spin axis of the Earth in the case of a 0° inclination orbit, He is perpendicular to Hp and directed earthward, Hn is perpendicular to both Hp and He and directed eastward, and Ht is the total field.
 
 This data product also provides GOES 10 satellite positions and velocities derived from SSCWEB GEI ephemeris, interpolated to 1 min time resolution.
 
@@ -69,6 +69,22 @@ Approximate coefficients are:
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>G10_L2_MAG@0</ProductKey>
+        <ProductKey>G10_L2_MAG@1</ProductKey>
+        <ProductKey>G10_L2_MAG@2</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/GOES/10/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <MeasurementType>Ephemeris</MeasurementType>
@@ -84,7 +100,7 @@ Approximate coefficients are:
 
 The GOES 8 to GOES 12 spacecraft are 3-axis stabilized and there is only one opportunity for a spin maneuver at the beginning of the mission to determine on-orbit offsets. There are additional complications that result from needing to know the changing offsets introduced by torquer coils on the satellites. Though comparisons of data to model fields during quiet times, we are doing rather well with the offsets, but it is not possible to give an exact number for the accuracy. We continue to look at comparisons of data and models, and data to other nearby spacecraft encounters. We are interested in anything learned by the user, or working with the user to help interpret the data, or to answer questions. While we have put in a significant effort to remove the effects of torquer coil interference, in the 0.512 s data there can be small, typically less than 1 nT spikes in the data at the time of torquer current changes. More information on this topic is included the more extensive "readme file". This file is a living document that will be updated periodically.
 
-GOES 10 is an older satellite, and has not been "operational" since about July 2006. The capability to keep it at 0&#xB0; inclination, or within a few tenths of a degree, no longer exists. The inclination is now several degrees. This will have a small diurnal effect on the data that can be handled with proper coordinate transformations that take into account the changing satellite location.</Caveats>
+GOES 10 is an older satellite, and has not been "operational" since about July 2006. The capability to keep it at 0° inclination, or within a few tenths of a degree, no longer exists. The inclination is now several degrees. This will have a small diurnal effect on the data that can be handled with proper coordinate transformations that take into account the changing satellite location.</Caveats>
     <Parameter>
       <Name>g10_longitude_time</Name>
       <ParameterKey>g10_longitude_time</ParameterKey>
@@ -116,7 +132,7 @@ GOES 10 is an older satellite, and has not been "operational" since about July 2
       <ParameterKey>g10_longitude</ParameterKey>
       <Description>Satellite geographic west longitude at noon UTC</Description>
       <Cadence>P1D</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
@@ -135,7 +151,7 @@ GOES 10 is an older satellite, and has not been "operational" since about July 2
       <Description>Magnetic local time at satellite position</Description>
       <Cadence>PT1M</Cadence>
       <Units>h</Units>
-      <UnitsConversion>(g10_mlt-12)*15&gt;&#xB0;</UnitsConversion>
+      <UnitsConversion>(g10_mlt-12)*15&gt;°</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>SM</CoordinateSystemName>
@@ -399,7 +415,7 @@ GOES 10 is an older satellite, and has not been "operational" since about July 2
 
 Coordinate description for historically used PEN system:
 
-* Hp magnetic field vector component, points northward, perpendicular to orbit plane which for a 0&#xB0; inclination orbit is parallel to spin axis of the Earth
+* Hp magnetic field vector component, points northward, perpendicular to orbit plane which for a 0° inclination orbit is parallel to spin axis of the Earth
 * He magnetic field vector component, perpendicular to Hp and Hn and points earthward
 * Hn magnetic field vector component, perpendicular to Hp and He and points eastward
 * Ht total field</Description>
