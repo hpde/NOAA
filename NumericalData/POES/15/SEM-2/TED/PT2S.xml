@@ -33,7 +33,6 @@
       <Format>Binary</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <ProviderResourceName/>
     <InstrumentID>spase://SMWG/Instrument/NOAA/15/SEM-2</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>

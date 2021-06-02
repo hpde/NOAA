@@ -33,14 +33,12 @@
       <Format>Binary</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <ProviderResourceName/>
     <InstrumentID>spase://SMWG/Instrument/NOAA/16/SEM-2</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1998-07-01T00:00:00.00000</StartDate>
         <StopDate>2014-12-31T00:00:00.00000</StopDate>
-        <Note/>
       </TimeSpan>
       <Cadence>PT2S</Cadence>
     </TemporalDescription>
