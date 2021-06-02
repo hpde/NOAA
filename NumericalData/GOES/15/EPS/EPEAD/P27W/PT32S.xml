@@ -70,7 +70,6 @@
       <Name>Quality flag for protons with energies from 4.2 to 8.7 MeV.</Name>
       <ParameterKey>P2W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -118,7 +117,6 @@
       <Name>Quality flag for protons with energies from 8.7 to 14.5 MeV.</Name>
       <ParameterKey>P3W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -166,7 +164,6 @@
       <Name>Quality flag for protons with energies from 15 to 40 MeV.</Name>
       <ParameterKey>P4W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -214,7 +211,6 @@
       <Name>Quality flag for protons with energies from 38 to 82 MeV.</Name>
       <ParameterKey>P5W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -262,7 +258,6 @@
       <Name>Quality flag for protons with energies from 84 to 200 MeV.</Name>
       <ParameterKey>P6W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -310,7 +305,6 @@
       <Name>Quality flag for protons with energies from 110 to 900 MeV.</Name>
       <ParameterKey>P7W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

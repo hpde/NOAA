@@ -70,7 +70,6 @@
       <Name>Quality flag for protons with energies &gt;1 MeV</Name>
       <ParameterKey>ZPGT1E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -95,7 +94,6 @@
       <Name>Quality flag for protons with energies &gt;5 MeV</Name>
       <ParameterKey>ZPGT5E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -120,7 +118,6 @@
       <Name>Quality flag for protons with energies &gt;10 MeV</Name>
       <ParameterKey>ZPGT10E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -145,7 +142,6 @@
       <Name>Quality flag for protons with energies &gt;30 MeV</Name>
       <ParameterKey>ZPGT30E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -170,7 +166,6 @@
       <Name>Quality flag for protons with energies &gt;50 MeV</Name>
       <ParameterKey>ZPGT50E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -195,7 +190,6 @@
       <Name>Quality flag for protons with energies &gt;60 MeV</Name>
       <ParameterKey>ZPGT60E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -220,7 +214,6 @@
       <Name>Quality flag for protons with energies &gt;100 MeV</Name>
       <ParameterKey>ZPGT100E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -245,7 +238,6 @@
       <Name>Quality flag for protons with energies &gt;1 MeV</Name>
       <ParameterKey>ZPGT1W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -270,7 +262,6 @@
       <Name>Quality flag for protons with energies &gt;5 MeV</Name>
       <ParameterKey>ZPGT5W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -295,7 +286,6 @@
       <Name>Quality flag for protons with energies &gt;10 MeV</Name>
       <ParameterKey>ZPGT10W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -320,7 +310,6 @@
       <Name>Quality flag for protons with energies &gt;30 MeV</Name>
       <ParameterKey>ZPGT30W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -345,7 +334,6 @@
       <Name>Quality flag for protons with energies &gt;50 MeV</Name>
       <ParameterKey>ZPGT50W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -370,7 +358,6 @@
       <Name>Quality flag for protons with energies &gt;60 MeV</Name>
       <ParameterKey>ZPGT60W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -395,7 +382,6 @@
       <Name>Quality flag for protons with energies &gt;100 MeV</Name>
       <ParameterKey>ZPGT100W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -420,7 +406,6 @@
       <Name>Quality flag for protons with energies 5 MeV</Name>
       <ParameterKey>ZPEQ5E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -445,7 +430,6 @@
       <Name>Quality flag for protons with energies 15 MeV</Name>
       <ParameterKey>ZPEQ15E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -470,7 +454,6 @@
       <Name>Quality flag for protons with energies 30 MeV</Name>
       <ParameterKey>ZPEQ30E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -495,7 +478,6 @@
       <Name>Quality flag for protons with energies 50 MeV</Name>
       <ParameterKey>ZPEQ50E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -520,7 +502,6 @@
       <Name>Quality flag for protons with energies 60 MeV</Name>
       <ParameterKey>ZPEQ60E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -545,7 +526,6 @@
       <Name>Quality flag for protons with energies 100 MeV</Name>
       <ParameterKey>ZPEQ100E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -570,7 +550,6 @@
       <Name>Quality flag for protons with energies 5 MeV</Name>
       <ParameterKey>ZPEQ5W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -595,7 +574,6 @@
       <Name>Quality flag for protons with energies 15 MeV</Name>
       <ParameterKey>ZPEQ15W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -620,7 +598,6 @@
       <Name>Quality flag for protons with energies 30 MeV</Name>
       <ParameterKey>ZPEQ30W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -645,7 +622,6 @@
       <Name>Quality flag for protons with energies 50 MeV</Name>
       <ParameterKey>ZPEQ50W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -670,7 +646,6 @@
       <Name>Quality flag for protons with energies 60 MeV</Name>
       <ParameterKey>ZPEQ60W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -695,7 +670,6 @@
       <Name>Quality flag for protons with energies 100 MeV</Name>
       <ParameterKey>ZPEQ100W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

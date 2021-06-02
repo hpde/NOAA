@@ -70,7 +70,6 @@
       <Name>Quality flag for all particles that deposit energy the D1 silicon slab</Name>
       <ParameterKey>S1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -95,7 +94,6 @@
       <Name>Quality flag for all particles that deposit energy in the D2 silicon slab</Name>
       <ParameterKey>S2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -120,7 +118,6 @@
       <Name>Quality flag for all particles that deposit energy in the photomultiplier tube</Name>
       <ParameterKey>S3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -145,7 +142,6 @@
       <Name>Quality flag for all particles that deposit energy in the photomultiplier tube</Name>
       <ParameterKey>S4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -170,7 +166,6 @@
       <Name>Quality flag for all particles that deposit energy in both the D1 and D2 silicon slabs</Name>
       <ParameterKey>S5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

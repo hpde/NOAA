@@ -40,7 +40,6 @@
       <Exposure>PT1M</Exposure>
 </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <Caveats/>
     <Keyword>L1</Keyword>
     <Keyword>Solar Wind</Keyword>
     <Keyword>Velocity</Keyword>

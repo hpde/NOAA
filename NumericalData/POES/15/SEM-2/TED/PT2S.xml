@@ -48,7 +48,6 @@
       <Name>Year</Name>
       <ParameterKey>Year</ParameterKey>
       <Description>Year of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -57,7 +56,6 @@
       <Name>Month</Name>
       <ParameterKey>Month</ParameterKey>
       <Description>Month of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -66,7 +64,6 @@
       <Name>Day</Name>
       <ParameterKey>dy</ParameterKey>
       <Description>Day of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -75,7 +72,6 @@
       <Name>Hour</Name>
       <ParameterKey>hr</ParameterKey>
       <Description>Hour of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -84,7 +80,6 @@
       <Name>Minute</Name>
       <ParameterKey>mi</ParameterKey>
       <Description>Minute of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -93,7 +88,6 @@
       <Name>Second</Name>
       <ParameterKey>second</ParameterKey>
       <Description>Second of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -102,7 +96,6 @@
       <Name>Day of Year</Name>
       <ParameterKey>dayofyear</ParameterKey>
       <Description>Day of year of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>

@@ -69,7 +69,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A1E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -81,7 +80,6 @@
       <Name>Quality flag for alpha particles with energy 6.9 MeV.</Name>
       <ParameterKey>A1E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -106,7 +104,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A1W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -118,7 +115,6 @@
       <Name>Quality flag for alpha particles with energy 6.9 MeV.</Name>
       <ParameterKey>A1W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -143,7 +139,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A2E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -155,7 +150,6 @@
       <Name>Quality flag for alpha particles with energy 16.1 MeV.</Name>
       <ParameterKey>A2E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -180,7 +174,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A2W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -192,7 +185,6 @@
       <Name>Quality flag for alpha particles with energy 16.1 MeV.</Name>
       <ParameterKey>A2W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -217,7 +209,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A3E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -229,7 +220,6 @@
       <Name>Quality flag for alpha particles with energy 41.2 MeV.</Name>
       <ParameterKey>A3E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -254,7 +244,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A3W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -266,7 +255,6 @@
       <Name>Quality flag for alpha particles with energy 41.2 MeV.</Name>
       <ParameterKey>A3W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -291,7 +279,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A4E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -303,7 +290,6 @@
       <Name>Quality flag for alpha particles with energy 120 MeV</Name>
       <ParameterKey>A4E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -328,7 +314,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A4W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -340,7 +325,6 @@
       <Name>Quality flag for alpha particles with energy 120 MeV</Name>
       <ParameterKey>A4W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -365,7 +349,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A5E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -377,7 +360,6 @@
       <Name>Quality flag for alpha particles with energy 210 MeV</Name>
       <ParameterKey>A5E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -402,7 +384,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A5W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -414,7 +395,6 @@
       <Name>Quality flag for alpha particles with energy 210 MeV</Name>
       <ParameterKey>A5W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -439,7 +419,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A6E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -451,7 +430,6 @@
       <Name>Quality flag for alpha particles with energy 435 MeV</Name>
       <ParameterKey>A6E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -476,7 +454,6 @@
       <Name>Data points per average.</Name>
       <ParameterKey>A6W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -488,7 +465,6 @@
       <Name>Quality flag for alpha particles with energy 435 MeV</Name>
       <ParameterKey>A6W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

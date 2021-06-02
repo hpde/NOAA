@@ -70,7 +70,6 @@
       <Name>Quality flag for alpha particles with energies from 2560 to 3400 MeV</Name>
       <ParameterKey>A7_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -118,7 +117,6 @@
       <Name>Quality flag for alpha particles with energies &gt;3400 MeV</Name>
       <ParameterKey>A8_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -156,7 +154,6 @@
       <Name>Quality flag for protons with energies from 330 to 420 MeV</Name>
       <ParameterKey>P8_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -204,7 +201,6 @@
       <Name>Quality flag for protons with energies from 420 to 510 MeV</Name>
       <ParameterKey>P9_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -252,7 +248,6 @@
       <Name>Quality flag for protons with energies from 510 to 700 MeV</Name>
       <ParameterKey>P10_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -300,7 +295,6 @@
       <Name>Quality flag for protons with energies &gt;700 MeV</Name>
       <ParameterKey>P11_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

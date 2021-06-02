@@ -72,7 +72,6 @@
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>NOAA GOES 15 EPEAD</ProviderResourceName>
@@ -104,7 +103,6 @@
       <Name>Data points per average</Name>
       <ParameterKey>E1E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>75</ValidMax>
       <FillValue>0</FillValue>
@@ -116,7 +114,6 @@
       <Name>Quality flag for electrons with energy &gt;0.8 MeV</Name>
       <ParameterKey>E1E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -141,7 +138,6 @@
       <Name>Data points per average</Name>
       <ParameterKey>E1W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>75</ValidMax>
       <FillValue>0</FillValue>
@@ -153,7 +149,6 @@
       <Name>Quality flag for electrons with energy &gt;0.8 MeV</Name>
       <ParameterKey>E1W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -178,7 +173,6 @@
       <Name>Data points per average</Name>
       <ParameterKey>E2E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>75</ValidMax>
       <FillValue>0</FillValue>
@@ -190,7 +184,6 @@
       <Name>Quality flag for electrons with energy &gt;2 MeV</Name>
       <ParameterKey>E2E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -215,7 +208,6 @@
       <Name>Data points per average</Name>
       <ParameterKey>E2W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>75</ValidMax>
       <FillValue>0</FillValue>
@@ -227,7 +219,6 @@
       <Name>Quality flag for electrons with energy &gt;2 MeV</Name>
       <ParameterKey>E2W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -252,7 +243,6 @@
       <Name>Data points per average</Name>
       <ParameterKey>E3E_NUM_PTS</ParameterKey>
       <Description>Number of data points per average</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>75</ValidMax>
       <FillValue>0</FillValue>
@@ -264,7 +254,6 @@
       <Name>Quality flag for electrons with energy &gt;4 MeV</Name>
       <ParameterKey>E3E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -289,7 +278,6 @@
       <Name>Data points per average</Name>
       <ParameterKey>E3W_NUM_PTS</ParameterKey>
       <Description>Number of data points per average</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>75</ValidMax>
       <FillValue>0</FillValue>
@@ -301,7 +289,6 @@
       <Name>Quality flag for electrons with energy &gt;4 MeV</Name>
       <ParameterKey>E3W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

@@ -59,7 +59,6 @@
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NOAA/SEC</RepositoryID>
@@ -104,7 +103,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_1ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -155,7 +153,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_2ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -206,7 +203,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_3ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -257,7 +253,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_4ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -308,7 +303,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_5ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -359,7 +353,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_6ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -410,7 +403,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_7ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -461,7 +453,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_8ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -512,7 +503,6 @@
       <Name>Quality flag for electrons with average flux of 40 keV electrons</Name>
       <ParameterKey>M_9ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -563,7 +553,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_1ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -614,7 +603,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_2ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -665,7 +653,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_3ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -716,7 +703,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_4ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -767,7 +753,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_5ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -818,7 +803,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_6ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -869,7 +853,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_7ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -920,7 +903,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_8ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -971,7 +953,6 @@
       <Name>Quality flag for electrons with average flux of 75 keV electrons</Name>
       <ParameterKey>M_9ME2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1022,7 +1003,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_1ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1073,7 +1053,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_2ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1124,7 +1103,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_3ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1175,7 +1153,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_4ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1226,7 +1203,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_5ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1277,7 +1253,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_6ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1328,7 +1303,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_7ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1379,7 +1353,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_8ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1430,7 +1403,6 @@
       <Name>Quality flag for electrons with average flux of 150 keV electrons</Name>
       <ParameterKey>M_9ME3_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1481,7 +1453,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_1ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1532,7 +1503,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_2ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1583,7 +1553,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_3ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1634,7 +1603,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_4ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1685,7 +1653,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_5ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1736,7 +1703,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_6ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1787,7 +1753,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_7ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1838,7 +1803,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_8ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1889,7 +1853,6 @@
       <Name>Quality flag for electrons with average flux of 275 keV electrons</Name>
       <ParameterKey>M_9ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1940,7 +1903,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_1ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -1991,7 +1953,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_2ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2042,7 +2003,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_3ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2093,7 +2053,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_4ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2144,7 +2103,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_5ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2195,7 +2153,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_6ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2246,7 +2203,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_7ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2297,7 +2253,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_8ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -2348,7 +2303,6 @@
       <Name>Quality flag for electrons with average flux of 475 keV electrons</Name>
       <ParameterKey>M_9ME5_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

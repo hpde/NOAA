@@ -71,7 +71,6 @@
       <Name>BX Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BX_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -96,7 +95,6 @@
       <Name>BY Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BY_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -121,7 +119,6 @@
       <Name>BZ Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BZ_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -146,7 +143,6 @@
       <Name>BX Spacecraft Coordinates Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BXSC_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -175,7 +171,6 @@
       <Name>BY Spacecraft Coordinates Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BYSC_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -204,7 +199,6 @@
       <Name>BZ Spacecraft Coordinates Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BZSC_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -233,7 +227,6 @@
       <Name>B Total Spacecraft Coordinates Magnetometer-1 Quality Flag</Name>
       <ParameterKey>BTSC_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -258,7 +251,6 @@
       <Name>BX Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BX_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -283,7 +275,6 @@
       <Name>BY Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BY_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -308,7 +299,6 @@
       <Name>BZ Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BZ_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -333,7 +323,6 @@
       <Name>BX Spacecraft Coordinates Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BXSC_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -362,7 +351,6 @@
       <Name>BY Spacecraft Coordinates Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BYSC_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -391,7 +379,6 @@
       <Name>BZ Spacecraft Coordinates Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BZSC_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -420,7 +407,6 @@
       <Name>B Total Spacecraft Coordinates Magnetometer-2 Quality Flag</Name>
       <ParameterKey>BTSC_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -445,7 +431,6 @@
       <Name>HP Magnetometer-1 Quality Flag</Name>
       <ParameterKey>HP_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -474,7 +459,6 @@
       <Name>HE Magnetometer-1 Quality Flag</Name>
       <ParameterKey>HE_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -503,7 +487,6 @@
       <Name>HN Magnetometer-1 Quality Flag</Name>
       <ParameterKey>HN_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -532,7 +515,6 @@
       <Name>HT Magnetometer-1 Quality Flag</Name>
       <ParameterKey>HT_1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -557,7 +539,6 @@
       <Name>HP Magnetometer-2 Quality Flag</Name>
       <ParameterKey>HP_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -586,7 +567,6 @@
       <Name>HE Magnetometer-2 Quality Flag</Name>
       <ParameterKey>HE_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -615,7 +595,6 @@
       <Name>HN Magnetometer-2 Quality Flag</Name>
       <ParameterKey>HN_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -644,7 +623,6 @@
       <Name>HT Magnetometer-2 Quality Flag</Name>
       <ParameterKey>HT_2_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

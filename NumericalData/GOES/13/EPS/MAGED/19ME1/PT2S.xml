@@ -70,7 +70,6 @@
       <Name>Quality flag for electrons with energy from 30 to 50 keV</Name>
       <ParameterKey>M_1ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -136,7 +135,6 @@
       <Name>Quality flag for electrons with energy from 30 to 50 keV</Name>
       <ParameterKey>M_2ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -202,7 +200,6 @@
       <Name>Quality flag for electrons with energy from 30 to 50 keV</Name>
       <ParameterKey>M_3ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -268,7 +265,6 @@
       <Name>Quality flag for electrons with energy from 30 to 50 keV</Name>
       <ParameterKey>M_4ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -334,7 +330,6 @@
       <Name>Quality flag for electrons with energy from 30 to 50 keV</Name>
       <ParameterKey>M_5ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -400,7 +395,6 @@
       <Name>Quality flag for electrons with energy from 30 to 50 keV</Name>
       <ParameterKey>M_6ME1_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

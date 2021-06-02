@@ -70,7 +70,6 @@
       <Name>Quality flag for electrons with energy &gt;2 MeV.</Name>
       <ParameterKey>E2E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -108,7 +107,6 @@
       <Name>Quality flag for electrons with energy &gt;2 MeV.</Name>
       <ParameterKey>E2W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

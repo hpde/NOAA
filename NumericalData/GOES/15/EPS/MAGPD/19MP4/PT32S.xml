@@ -70,7 +70,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_1MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -136,7 +135,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_2MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -202,7 +200,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_3MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -268,7 +265,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_4MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -334,7 +330,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_5MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -400,7 +395,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_6MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -466,7 +460,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_7MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -532,7 +525,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_8MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -598,7 +590,6 @@
       <Name>Quality flag for protons with energy from 250 to 350 keV</Name>
       <ParameterKey>M_9MP4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

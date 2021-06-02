@@ -70,7 +70,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_1ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 1</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -82,7 +81,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_1ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 1</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -118,7 +116,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_2ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 2</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -130,7 +127,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_2ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 2</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -166,7 +162,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_3ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 3</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -178,7 +173,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_3ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 3</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -214,7 +208,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_4ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 4</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -226,7 +219,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_4ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 4</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -262,7 +254,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_5ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 5.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -274,7 +265,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_5ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 5.</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -310,7 +300,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_6ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 6.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -322,7 +311,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_6ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 6.</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -358,7 +346,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_7ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 7.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -370,7 +357,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_7ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 7.</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -406,7 +392,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_8ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 8.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -418,7 +403,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_8ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 8.</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>
@@ -454,7 +438,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_9ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue in telescope 9.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -466,7 +449,6 @@
       <Name>Average Count of electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_9ME4_COUNT</ParameterKey>
       <Description>Average total counts of electrons with energy from 200 to 350 keV measured by telescope 9.</Description>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>-99999</FillValue>

@@ -70,7 +70,6 @@
       <Name>Quality flag for electrons with energies &gt;4 MeV</Name>
       <ParameterKey>E3E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -108,7 +107,6 @@
       <Name>Quality flag for electrons with energies &gt;4 MeV</Name>
       <ParameterKey>E3W_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

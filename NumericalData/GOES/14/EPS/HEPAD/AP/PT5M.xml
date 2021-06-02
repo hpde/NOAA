@@ -70,7 +70,6 @@
       <Name>Quality flag for 2980 MeV alpha particles.</Name>
       <ParameterKey>A7_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -82,7 +81,6 @@
       <Name>Number of 2980 MeV alpha particles per average.</Name>
       <ParameterKey>A7_NUM_PTS</ParameterKey>
       <Description>Data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -108,7 +106,6 @@
       <Name>Quality flag for &gt;3400 MeV alpha particles.</Name>
       <ParameterKey>A8_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -120,7 +117,6 @@
       <Name>Number of &gt;3400 MeV alpha particles per average.</Name>
       <ParameterKey>A8_NUM_PTS</ParameterKey>
       <Description>Data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -146,7 +142,6 @@
       <Name>Quality flag for 375 MeV protons.</Name>
       <ParameterKey>P8_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -158,7 +153,6 @@
       <Name>Number of 375 MeV protons per average.</Name>
       <ParameterKey>P8_NUM_PTS</ParameterKey>
       <Description>Data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -184,7 +178,6 @@
       <Name>Quality flag for 465 MeV protons.</Name>
       <ParameterKey>P9_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -196,7 +189,6 @@
       <Name>Number of 465 MeV protons per average.</Name>
       <ParameterKey>P9_NUM_PTS</ParameterKey>
       <Description>Data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -222,7 +214,6 @@
       <Name>Quality flag for 605 MeV protons.</Name>
       <ParameterKey>P10_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -234,7 +225,6 @@
       <Name>Number of 605 MeV protons per average.</Name>
       <ParameterKey>P10_NUM_PTS</ParameterKey>
       <Description>Data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>
@@ -260,7 +250,6 @@
       <Name>Quality flag for &gt;700 MeV protons.</Name>
       <ParameterKey>P11_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -272,7 +261,6 @@
       <Name>Number of &gt;700 MeV protons per average.</Name>
       <ParameterKey>P11_NUM_PTS</ParameterKey>
       <Description>Data points per average.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>10</ValidMax>
       <FillValue>0</FillValue>

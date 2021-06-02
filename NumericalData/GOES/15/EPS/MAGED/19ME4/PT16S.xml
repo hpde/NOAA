@@ -70,7 +70,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_1ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -136,7 +135,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_2ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -202,7 +200,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_3ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -268,7 +265,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_4ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -334,7 +330,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_5ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -400,7 +395,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_6ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -466,7 +460,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_7ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -532,7 +525,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_8ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -598,7 +590,6 @@
       <Name>Quality flag for electrons with energy from 200 to 350 keV</Name>
       <ParameterKey>M_9ME4_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>

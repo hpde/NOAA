@@ -64,7 +64,6 @@ Spacecraft magnetic field is defined as:
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <ProviderResourceName>NOAA GOES 8</ProviderResourceName>
     <ProviderProcessingLevel>Level-2</ProviderProcessingLevel>

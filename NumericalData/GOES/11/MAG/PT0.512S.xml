@@ -81,7 +81,6 @@ Approximate coefficients are:
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/GOES/11/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -542,7 +541,6 @@ Coordinate description for historically used PEN system:
       <ParameterKey>g11_t1_counts</ParameterKey>
       <Description>Magnetotorquer T1 filtered counts. Signed counts smoothed by 3-point average, delayed, or smoothed by Farthing coefficients.</Description>
       <Cadence>PT0.512S</Cadence>
-      <Units/>
       <ValidMin>-1.0e6</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>NaN</FillValue>
@@ -555,7 +553,6 @@ Coordinate description for historically used PEN system:
       <ParameterKey>g11_t2_counts</ParameterKey>
       <Description>Magnetotorquer T2 filtered counts. Signed counts smoothed by 3-point average, delayed, or smoothed by Farthing coefficients.</Description>
       <Cadence>PT0.512S</Cadence>
-      <Units/>
       <ValidMin>-1.0e6</ValidMin>
       <ValidMax>1.0e6</ValidMax>
       <FillValue>NaN</FillValue>
@@ -581,7 +578,6 @@ Possible data quality values:
 
 Commands are not always available in the telemetry, in which case, a 3-point average is done.</Description>
       <Cadence>PT0.512S</Cadence>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>7</ValidMax>
       <FillValue>4294967295</FillValue>

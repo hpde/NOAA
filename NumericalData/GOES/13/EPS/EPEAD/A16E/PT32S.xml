@@ -70,7 +70,6 @@
       <Name>Quality flag for alpha particles with energy from 3.8 to 9.9 MeV.</Name>
       <ParameterKey>A1E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -118,7 +117,6 @@
       <Name>Quality flag for alpha particles with energy from 9.9 to 21.3 MeV.</Name>
       <ParameterKey>A2E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -166,7 +164,6 @@
       <Name>Quality flag for alpha particles with energy from 21.3 to 61.0 MeV.</Name>
       <ParameterKey>A3E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -214,7 +211,6 @@
       <Name>Quality flag for alpha particles with energy from 60 to 160 MeV.</Name>
       <ParameterKey>A4E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -262,7 +258,6 @@
       <Name>Quality flag for alpha particles with energy from 160 to 260 MeV.</Name>
       <ParameterKey>A5E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
@@ -310,7 +305,6 @@
       <Name>Quality flag for alpha particles with energy from 330 to 500 MeV.</Name>
       <ParameterKey>A6E_QUAL_FLAG</ParameterKey>
       <Description>Quality flag non-zero value indicates data quality issue.</Description>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967295</ValidMax>
       <FillValue>99999</FillValue>
