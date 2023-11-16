@@ -1,14 +1,14 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
-   <Version>2.5.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <NumericalData>
       <ResourceID>spase://NOAA/NumericalData/GOES/1/MFM/PT3S</ResourceID>
       <ResourceHeader>
          <ResourceName>GOES 1 Magnetic Field Monitor at 3 s Time Resolution in Spacecraft Coordinates</ResourceName>
          <AlternateName>GOES 1 MFM data</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2023-11-15T12:34:56Z</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2023-03-23T10:46:37</ReleaseDate>
+               <ReleaseDate>2023-11-15T10:46:37</ReleaseDate>
                <Note>Removed bad InformationURLs. Updated AccessURL. Update Format of the data. Updated Parameters.</Note>
             </RevisionEvent>
          </RevisionHistory>
@@ -64,9 +64,9 @@
       <Keyword>magnetic field</Keyword>
       <Keyword>magnetometer</Keyword>
       <Parameter>
-         <Name>Date and Time</Name>
+         <Name>Time</Name>
          <ParameterKey>time_tag</ParameterKey>
-         <Description>Time is given as year-month-day hour:minute:seconds (i.e., YYYY-MM-DD HH:MM:SS). The year and month values can also be derived from the file name.</Description>
+         <Description>Time is given as  hour:minute (i.e., HH:MM.M). The year and month values can also be derived from the file name.</Description>
          <Cadence>PT3S</Cadence>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
