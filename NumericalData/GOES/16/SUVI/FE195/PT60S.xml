@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
    <Version>2.7.0</Version>
    <NumericalData>
-      <ResourceID>spase://NOAA/NumericalData/GOES/16/SUVI/HE304/PT120S</ResourceID>
+      <ResourceID>spase://NOAA/NumericalData/GOES/16/SUVI/FE195/PT120S</ResourceID>
       <NamingAuthority>NOAA</NamingAuthority>
       <ResourceType>NumericalData</ResourceType>
       <ResourceHeader>
-         <ResourceName>GOES-R Series Level 1b SUVI 304 Angstrom FITS Data</ResourceName>
+         <ResourceName>GOES-R Series Level 1b SUVI 195 Angstrom FITS Data</ResourceName>
          <DOI>https://doi.org/10.7289/V5FT8J93</DOI>
          <ReleaseDate>2025-04-29T00:08:46</ReleaseDate>
-         <Description>The GOES-R/SUVI 304 Å Level 1b FITS Data. The 304 Å channel observes the He ii line from chromosphere and transition region (0.50 MK).
+         <Description>The GOES-R/SUVI 195 Å Level 1b FITS Data. The 195 Å channel observes the Fe XII line from 1.5 MK plasma. 
 
 The GOES-R Solar Ultraviolet Imagers (SUVI) data consist of solar images in six extreme-ultraviolet passbands — 94 Å, 131 Å, 171 Å, 195 Å, 284 Å, and 304 Å — with a variety of exposure times and filters in place to ensure each image set captures the full dynamic range of solar phenomena. SUVI images have a pixel resolution of 1280×1280 pixels, each with an angular resolution of 2.5 arcsec per pixel, for a total field of view of 53.3 arcmin square. Some corners of the CCD are obscured by instrumental vignetting.</Description>
          <Contact>
@@ -38,7 +38,7 @@ The GOES-R Solar Ultraviolet Imagers (SUVI) data consist of solar images in six 
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <URL>https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes16/l1b/suvi-l1b-he304/</URL>
+            <URL>https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes16/l1b/suvi-l1b-fe195/</URL>
             <Style>File</Style>
          </AccessURL>
          <Format>FITS</Format>
@@ -48,23 +48,22 @@ The GOES-R Solar Ultraviolet Imagers (SUVI) data consist of solar images in six 
       <MeasurementType>ImageIntensity</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>2017-04-01T00:01:23</StartDate>
-            <StopDate>2025-04-07T18:52:39</StopDate>
+            <StartDate>2017-04-01T00:01:13</StartDate>
+            <StopDate>2025-04-07T18:53:39</StopDate>
          </TimeSpan>
       </TemporalDescription>
       <ObservedRegion>Sun</ObservedRegion>
-      <ObservedRegion>Sun.Chromosphere</ObservedRegion>
-      <ObservedRegion>Sun.TransitionRegion</ObservedRegion>
+      <ObservedRegion>Sun.Corona</ObservedRegion>
       <Parameter>
          <Name>FITS Data Array</Name>
-         <Description>GOES/SUVI 304 Å Image Intensity Array</Description>
+         <Description>GOES/SUVI 195 Å Image Intensity Array</Description>
          <Units>W m^-2 sr^-1</Units>
          <Wave>
             <WaveType>Photon</WaveType>
             <WaveQuantity>Intensity</WaveQuantity>
             <WavelengthRange>
-               <Low>304</Low>
-               <High>304</High>
+               <Low>195</Low>
+               <High>195</High>
                <Units>angstrom</Units>
             </WavelengthRange>
          </Wave>
