@@ -13,13 +13,13 @@ Visit the [website](http://www.swpc.noaa.gov/) [http://www.swpc.noaa.gov/]
 If you are a consumer of the metadata simply clone the repostory
 
 ````
-git clone -b master --single-branch --depth=1 https://github.com/hpde/NASA
+git clone -b master --single-branch --depth=1 https://github.com/hpde/NOAA
 ````
 
 If you are a contributor (someone authorized to make changes directly to the repository), clone the repository with:
 
 ````
-git clone git@github.com:hpde/NASA.git
+git clone git@github.com:hpde/NOAA.git
 ````
 
 and use your favorite XML editor and tools to make the changes your want.
@@ -68,6 +68,7 @@ last loaded the page, then refresh the page.
 **Notes for repository administrator**: There is no garbage collection for workflows. So, its a good practice to
 occassionally visit the [action workflows](../../actions) and remove old workflow runs. To remove a run click
 the elipses (...) for a work flow and select "Delete workflow run". Typically you would only need the most recent run.
+
 
 
 
