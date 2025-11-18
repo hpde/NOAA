@@ -7,22 +7,43 @@ National Oceanic and Atmospheric Administration (NOAA)
 
 Visit the [website](http://www.swpc.noaa.gov/) [http://www.swpc.noaa.gov/]
 
+
 # How to Use This Repository
 
-If you are a consumer of the metadata simple clone the repostory
+If you are a consumer of the metadata simply clone the repostory
 
 ````
-git clone -b master --single-branch --depth=1 https://github.com/hpde/NOAA
+git clone -b master --single-branch --depth=1 https://github.com/hpde/NASA
 ````
 
-If you are a contributor, clone the repository and use the "draft" branch.
+If you are a contributor (someone authorized to make changes directly to the repository), clone the repository with:
+
 ````
-git clone git@github.com:hpde/NOAA.git
-git checkout draft
+git clone git@github.com:hpde/NASA.git
 ````
 
-After pushing updates send a "pull request". After a review, the changes
-will be added to the master branch and shared with consumers.
+and use your favorite XML editor and tools to make the changes your want.
+
+After making changes run validation and referential checks on the changed files. 
+You can use the [SPASE Resource Tools](https://spase-group.org/tools/resource/) to do this task.
+Then push updates (git commit, git push) to the repository.
+
+# How to suggest or make changes
+
+Anyone can suggested changes or updates to a description by loading the description
+in the editor, make the changes then click "Submit to Metadata Working Group" at the last step.
+You can jump to the last step by clicking "Export" on the list of steps on the left. 
+
+The easiest way to load a description into the SPASE Metadata Editor is to find the 
+landing page for a resource description by replacing the "spase://" in the 
+SPASE Resource ID with "https://spase-metadata.org/". For example, change
+
+    spase://ESA/NumericalData/PROBA2/LYRA/Flarelist/PT24H
+
+to
+    https://spase-metadata.org/ESA/NumericalData/PROBA2/LYRA/Flarelist/PT24H
+
+Navigate to that URL with a browser, the click "Edit" to load the description into the SPASE Metadata editor.
 
 # Validation Actions
 
@@ -47,3 +68,7 @@ last loaded the page, then refresh the page.
 **Notes for repository administrator**: There is no garbage collection for workflows. So, its a good practice to
 occassionally visit the [action workflows](../../actions) and remove old workflow runs. To remove a run click
 the elipses (...) for a work flow and select "Delete workflow run". Typically you would only need the most recent run.
+
+
+
+
