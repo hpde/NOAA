@@ -15,7 +15,7 @@ EUVS consists of three grating spectrographs, designated A, B, and C. EUVS-A mea
 
 EUVS observations are used to monitor variations in solar ultraviolet irradiance that affect the Earth&#039;s ionosphere and thermosphere, including changes associated with solar flares and longer-term solar variability.</Description>
          <Contact>
-            <PersonID>spase://SMWG/Person/GOES-R.EXIS</PersonID>
+            <PersonID>spase://SMWG/Person/NOAA.GOES-R.EXIS</PersonID>
             <Role>GeneralContact</Role>
          </Contact>
          <Contact>
