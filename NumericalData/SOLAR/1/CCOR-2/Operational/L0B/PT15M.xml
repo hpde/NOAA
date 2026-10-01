@@ -12,11 +12,11 @@
       </Rights>
    </MetadataRightsList>
    <NumericalData>
-      <ResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/L0B/PT15M</ResourceID>
+      <ResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/Operational/L0B/PT15M</ResourceID>
       <NamingAuthority>NOAA</NamingAuthority>
       <ResourceType>NumericalData</ResourceType>
       <ResourceHeader>
-         <ResourceName>SOLAR-1 CCOR-2 Level 0B Data</ResourceName>
+         <ResourceName>SOLAR-1 CCOR-2 Operational Level 0B Data</ResourceName>
          <AlternateName>SOLAR-1 CCOR2 L0b data</AlternateName>
          <ReleaseDate>2026-09-23T00:08:46Z</ReleaseDate>
          <RevisionHistory>
@@ -24,8 +24,12 @@
                <ReleaseDate>2026-09-23T00:08:46Z</ReleaseDate>
                <Note>Initial creation of the SOLAR-1 CCOR-2 Level 0B NumericalData metadata record. SY</Note>
             </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2026-10-01T00:08:46Z</ReleaseDate>
+               <Note>Updated ResourceID and ResourceName to identify Level 0B as an Operational product. SY</Note>
+            </RevisionEvent>
          </RevisionHistory>
-         <Description>Level 0B image data from the Compact Coronagraph-2 (CCOR-2) aboard the SOLAR-1 spacecraft. Level 0B processing combines the paired T1 and N2 Level 0A partial-field images into a single full-frame image. The image is rectified and populated with spatial calibration, World Coordinate System (WCS), and solar and spacecraft ephemeris information. The Level 0B images have dimensions of 2048 by 1920 pixels and contain detector data numbers (DN). The data are produced at an approximately 15-minute cadence.</Description>
+         <Description>Operational Level 0B image data from the Compact Coronagraph-2 (CCOR-2) aboard the SOLAR-1 spacecraft. Level 0B processing combines the paired T1 and N2 Level 0A partial-field images into a single full-frame image. The image is rectified and populated with spatial calibration, World Coordinate System (WCS), and solar and spacecraft ephemeris information. The Level 0B images have dimensions of 2048 by 1920 pixels and contain detector data numbers (DN). The data are produced at an approximately 15-minute cadence.</Description>
          <PublicationInfo>
             <Title>NOAA Space Weather Follow-on Lagrange 1 (SOLAR-1) CCOR2 L0b data in Daily Aggregations.</Title>
             <Authors>NOAA Space Weather Prediction Center</Authors>
@@ -47,6 +51,7 @@
             <URL>https://archive.data.noaa.gov/satellite-spaceweather#SWFO/docs/CCOR/</URL>
             <Description>NOAA documentation for SOLAR-1 CCOR-2 data products and processing.</Description>
          </InformationURL>
+         <PriorID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/L0B/PT15M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NOAA/NCEI</RepositoryID>
@@ -71,7 +76,7 @@
          <Encoding>None</Encoding>
       </AccessInformation>
       <ProcessingLevel>Uncalibrated</ProcessingLevel>
-      <ProviderProcessingLevel>Level 0B</ProviderProcessingLevel>
+      <ProviderProcessingLevel>Operational Level 0B</ProviderProcessingLevel>
       <InstrumentID>spase://NOAA/Instrument/SOLAR/1/CCOR-2</InstrumentID>
       <MeasurementType>ImageIntensity</MeasurementType>
       <TemporalDescription>
@@ -91,7 +96,7 @@
             <CoordinateSystemName>HPC</CoordinateSystemName>
          </CoordinateSystem>
       </SpatialCoverage>
-      <InputResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/L0A/PT15M</InputResourceID>
+      <InputResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/Operational/L0A/PT15M</InputResourceID>
       <Parameter>
          <Name>FITS Extension #1 White-Light Image Data</Name>
          <Description>CCOR-2 Level 0B white-light image data stored in FITS extension #1 as a 2048 x 1920 pixel 16-bit image array in detector data numbers (DN). The Level 0B image combines the paired T1 and N2 Level 0A partial-field images into a single full-frame image. The image has been rectified and uses helioprojective solar coordinates with a zenithal polynomial (ZPN) projection. The plate scale is approximately 24.27 arcsec per pixel at the reference point. The CCOR-2 bandpass is approximately 469 to 755 nm. Observation timing is recorded in the FITS header.</Description>

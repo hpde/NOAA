@@ -24,6 +24,10 @@
                <ReleaseDate>2026-09-30T00:08:46Z</ReleaseDate>
                <Note>Initial metadata creation. SY</Note>
             </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2026-10-01T00:08:46Z</ReleaseDate>
+               <Note>Updated InputResourceID. SY</Note>
+            </RevisionEvent>
          </RevisionHistory>
          <Description>Science-quality retrospective Level 1A image data from the Compact Coronagraph-2 (CCOR-2) aboard the SOLAR-1 spacecraft. The data consist of calibrated white-light coronagraph images of the solar corona processed from Level 0B data. The Science Level 1A processing includes bias correction, stability correction, exposure normalization, vignetting correction, and photometric calibration to mean solar brightness (MSB). The images have dimensions of 2048 by 1920 pixels and are provided in FITS format. The nominal data cadence is approximately 15 minutes.</Description>
          <PublicationInfo>
@@ -91,7 +95,7 @@
             <CoordinateSystemName>HPC</CoordinateSystemName>
          </CoordinateSystem>
       </SpatialCoverage>
-      <InputResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/L0B/PT15M</InputResourceID>
+      <InputResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/Operational/L0B/PT15M</InputResourceID>
       <Parameter>
          <Name>FITS Extension #1 White-Light Coronal Intensity Data Array</Name>
          <Description>CCOR-2 Science Level 1A white-light coronal intensity stored in FITS extension #1 as a 2048 x 1920 pixel compressed floating-point image array. The image has undergone bias correction, stability correction, exposure normalization, vignetting correction, and photometric calibration, and is expressed in mean solar brightness (MSB). The image uses helioprojective solar coordinates with a zenithal polynomial (ZPN) projection. The plate scale is approximately 24.27 arcsec per pixel at the reference point. The reference observation time is specified by the DATE-OBS FITS keyword.</Description>

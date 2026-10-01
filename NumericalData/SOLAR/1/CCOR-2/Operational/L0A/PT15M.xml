@@ -12,11 +12,11 @@
       </Rights>
    </MetadataRightsList>
    <NumericalData>
-      <ResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/L0A/PT15M</ResourceID>
+      <ResourceID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/Operational/L0A/PT15M</ResourceID>
       <NamingAuthority>NOAA</NamingAuthority>
       <ResourceType>NumericalData</ResourceType>
       <ResourceHeader>
-         <ResourceName>SOLAR-1 CCOR-2 Level 0A Data</ResourceName>
+         <ResourceName>SOLAR-1 CCOR-2 Operational Level 0A Data</ResourceName>
          <AlternateName>SOLAR-1 CCOR2 L0a data</AlternateName>
          <ReleaseDate>2026-09-23T00:08:46Z</ReleaseDate>
          <RevisionHistory>
@@ -24,8 +24,12 @@
                <ReleaseDate>2026-09-23T00:08:46Z</ReleaseDate>
                <Note>Initial creation of the SOLAR-1 CCOR-2 Level 0A NumericalData metadata record. SY</Note>
             </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2026-10-01T00:08:46Z</ReleaseDate>
+               <Note>Updated ResourceID and ResourceName to identify Level 0A as an Operational product. SY</Note>
+            </RevisionEvent>
          </RevisionHistory>
-         <Description>Level 0A image data from the Compact Coronagraph-2 (CCOR-2) aboard the SOLAR-1 spacecraft. Each observation is stored as separate T1 and N2 partial-field FITS files using different onboard compression schemes. The two Level 0A components are combined during Level 0B processing to form a single full-frame image. The Level 0A images have dimensions of 2048 by 1920 pixels and contain detector data numbers (DN). They have not yet been rectified, and usable spatial calibration and WCS parameters are not yet populated. The data are produced at an approximately 15-minute cadence.</Description>
+         <Description>Operational Level 0A image data from the Compact Coronagraph-2 (CCOR-2) aboard the SOLAR-1 spacecraft. Each observation is stored as separate T1 and N2 partial-field FITS files using different onboard compression schemes. The two Level 0A components are combined during Level 0B processing to form a single full-frame image. The Level 0A images have dimensions of 2048 by 1920 pixels and contain detector data numbers (DN). They have not yet been rectified, and usable spatial calibration and WCS parameters are not yet populated. The data are produced at an approximately 15-minute cadence.</Description>
          <PublicationInfo>
             <Title>Space weather Observations at L1 to Advance Readiness - 1 (SOLAR-1) CCOR2 L0a data in Daily Aggregations.</Title>
             <Authors>NOAA Space Weather Prediction Center</Authors>
@@ -47,6 +51,7 @@
             <URL>https://archive.data.noaa.gov/satellite-spaceweather#SWFO/docs/CCOR/</URL>
             <Description>NOAA documentation for SOLAR-1 CCOR-2 data products and processing.</Description>
          </InformationURL>
+         <PriorID>spase://NOAA/NumericalData/SOLAR/1/CCOR-2/L0A/PT15M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NOAA/NCEI</RepositoryID>
@@ -71,7 +76,7 @@
          <Encoding>None</Encoding>
       </AccessInformation>
       <ProcessingLevel>Uncalibrated</ProcessingLevel>
-      <ProviderProcessingLevel>Level 0A</ProviderProcessingLevel>
+      <ProviderProcessingLevel>Operational Level 0A</ProviderProcessingLevel>
       <InstrumentID>spase://NOAA/Instrument/SOLAR/1/CCOR-2</InstrumentID>
       <MeasurementType>ImageIntensity</MeasurementType>
       <TemporalDescription>
